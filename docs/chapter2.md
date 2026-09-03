@@ -91,7 +91,114 @@ Analizar a la competencia permite identificar sus estrategias, fortalezas y debi
 
 ### 2.2.2. Registro de entrevistas
 
-### 2.2.3. Análisis de entrevistas
+A continuación, se presenta el registro de las entrevistas realizadas a los representantes de cada segmento objetivo.
+
+#### Entrevista 1: Segmento 1 (Dueño de negocio/Emprendedor)
+
+| Datos | Detalles |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | (Pendiente) |
+
+**Evidencia fotográfica:**
+<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+
+**Resumen de la entrevista:**
+(Pendiente)
+
+---
+
+#### Entrevista 2: Segmento 1 (Dueño de negocio/Emprendedor)
+
+| Datos | Detalles |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | (Pendiente) |
+
+**Evidencia fotográfica:**
+<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+
+**Resumen de la entrevista:**
+(Pendiente)
+
+---
+
+#### Entrevista 3: Segmento 1 (Dueño de negocio/Emprendedor)
+
+| Datos | Detalles |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | (Pendiente) |
+
+**Evidencia fotográfica:**
+<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+
+**Resumen de la entrevista:**
+(Pendiente)
+
+---
+
+#### Entrevista 4: Segmento 2 (Transportista/Conductor)
+
+| Datos | Detalles |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | (Pendiente) |
+
+**Evidencia fotográfica:**
+<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+
+**Resumen de la entrevista:**
+(Pendiente)
+
+---
+
+#### Entrevista 5: Segmento 2 (Transportista/Conductor)
+
+| Datos | Detalles |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | (Pendiente) |
+
+**Evidencia fotográfica:**
+<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+
+**Resumen de la entrevista:**
+(Pendiente)
+
+---
+
+#### Entrevista 6: Segmento 2 (Transportista/Conductor)
+
+| Datos | Detalles |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | (Pendiente) |
+
+**Evidencia fotográfica:**
+<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+
+**Resumen de la entrevista:**
+(Pendiente)
+
 
 ## 2.3. Needfinding
 
