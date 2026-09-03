@@ -58,6 +58,26 @@ Analizar a la competencia permite identificar sus estrategias, fortalezas y debi
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+**[NOMBRE DEL PRODUCTO]** plantea estrategias de diferenciación frente a cada competidor identificado. Estas estrategias se formulan para afrontar sus fortalezas y aprovechar sus debilidades, considerando además el contexto de oportunidades y amenazas actuales en el sector de transporte logístico.
+
+#### Frente a inDrive Flete
+
+- **Aprovechando su debilidad (baja confianza):** inDrive tiene pocos filtros de seguridad, lo que genera desconfianza al momento de encomendar carga de alto valor. Nuestra táctica principal es exigir y validar documentos formales (SOAT, revisión técnica, antecedentes) para garantizar seguridad total, posicionándonos como la opción confiable para las empresas.
+- **Afrontando su fortaleza (gran cantidad de conductores):** para competir contra su masiva base de usuarios, nos enfocaremos estratégicamente en atraer primero a asociaciones de transportistas y ofrecerles clientes seguros y recurrentes (empresas), en lugar de viajes esporádicos.
+- **Contexto de oportunidades y amenazas:** aprovecharemos la oportunidad que brinda la alta informalidad del mercado para destacar como una solución formal. De esta manera, nos anticipamos a la amenaza de posibles regulaciones estatales sobre aplicaciones de transporte, manteniendo un riguroso cumplimiento normativo desde el inicio.
+
+#### Frente a Lalamove
+
+- **Aprovechando su debilidad (asignación automática y precios dinámicos):** Lalamove impone precios que suben con la demanda y asigna conductores al azar. Nosotros permitiremos que la empresa elija a su transportista ideal basándose en su historial de calificaciones, fomentando relaciones de confianza.
+- **Afrontando su fortaleza (rapidez y tecnología madura):** frente a su eficiente sistema de entregas inmediatas, nuestra estrategia no es competir en envíos pequeños de última milla, sino especializarnos exclusivamente en cargas más pesadas y movimientos entre proveedores, donde el cuidado de la mercadería vale más que la simple inmediatez.
+- **Contexto de oportunidades y amenazas:** el constante crecimiento de las ventas por internet es una gran oportunidad que capitalizaremos ofreciendo transporte seguro para el abastecimiento de estas tiendas. Al competir por confianza empresarial y no por volumen masivo, nos protegemos de la amenaza de guerras de precios impulsadas por aplicaciones con mayor capital.
+
+#### Frente a Scharff
+
+- **Aprovechando su debilidad (rigidez corporativa):** los operadores tradicionales exigen contratos largos y procesos de afiliación lentos. Nuestra táctica es ofrecer una plataforma ágil donde cualquier negocio pueda registrarse y solicitar un camión formal en cuestión de minutos, eliminando la burocracia.
+- **Afrontando su fortaleza (infraestructura física y formalidad):** en lugar de intentar construir almacenes propios, nuestro modelo cien por ciento digital y sin flota nos permite operar con mucha mayor agilidad y menores costos, brindando al mismo tiempo la emisión de facturas y el respaldo formal que la empresa necesita.
+- **Contexto de oportunidades y amenazas:** dirigiremos nuestros esfuerzos hacia las pequeñas y medianas empresas que buscan formalizar su cadena de distribución pero no tienen el presupuesto para un gran operador logístico. Este enfoque directo en los emprendedores mitiga la amenaza de que otros operadores tradicionales intenten digitalizarse en el futuro.
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
