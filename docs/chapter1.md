@@ -4,17 +4,17 @@
 
 ### 1.1.1. Descripción de la Startup
 
-[NOMBRE DE STARTUP] nace como una iniciativa tecnológica orientada a mejorar la forma en que los emprendimientos y las micro, pequeñas y medianas empresas acceden a servicios de transporte terrestre de carga cuando necesitan movilizar mercadería, pero no cuentan con una flota propia suficiente o con un proveedor de transporte fijo que pueda atender todas sus necesidades.
+CargoLink Labs nace como una iniciativa tecnológica orientada a mejorar la forma en que los emprendimientos y las micro, pequeñas y medianas empresas acceden a servicios de transporte terrestre de carga cuando necesitan movilizar mercadería, pero no cuentan con una flota propia suficiente o con un proveedor de transporte fijo que pueda atender todas sus necesidades.
 
-La startup propone [NOMBRE DEL PRODUCTO], una plataforma digital de intermediación de transporte de carga bajo demanda que permitirá conectar empresas que necesitan trasladar productos entre proveedores, almacenes, establecimientos comerciales, centros de distribución o clientes con transportistas disponibles y previamente registrados en la plataforma.
+La startup propone LoadMatch, una plataforma digital de intermediación de transporte de carga bajo demanda que permitirá conectar empresas que necesitan trasladar productos entre proveedores, almacenes, establecimientos comerciales, centros de distribución o clientes con transportistas disponibles y previamente registrados en la plataforma.
 
 A través de la solución, las empresas podrán registrar una solicitud indicando información como el punto de recojo, destino, características de la mercadería, fecha del servicio y tipo de vehículo requerido. A partir de estos datos, podrán encontrar transportistas que cuenten con vehículos compatibles con las necesidades del envío y consultar información relevante antes de confirmar la contratación.
 
-Uno de los principales enfoques de [NOMBRE DE STARTUP] será generar mayor confianza entre las partes involucradas. Para ello, la plataforma contemplará el registro y validación documental de los transportistas, conductores y vehículos, así como información relacionada con servicios realizados anteriormente, incidencias y calificaciones. De esta manera, una empresa que no haya trabajado previamente con determinado transportista podrá contar con mayores elementos para tomar una decisión.
+Uno de los principales enfoques de CargoLink Labs será generar mayor confianza entre las partes involucradas. Para ello, la plataforma contemplará el registro y validación documental de los transportistas, conductores y vehículos, así como información relacionada con servicios realizados anteriormente, incidencias y calificaciones. De esta manera, una empresa que no haya trabajado previamente con determinado transportista podrá contar con mayores elementos para tomar una decisión.
 
 Asimismo, la plataforma buscará proporcionar mayor trazabilidad durante el desarrollo del servicio mediante el seguimiento de sus diferentes estados y el registro de las operaciones realizadas. Por su parte, los transportistas podrán acceder a nuevas oportunidades de trabajo compatibles con las características de sus vehículos y gestionar desde un mismo entorno las solicitudes aceptadas y servicios efectuados.
 
-A futuro, [NOMBRE DEL PRODUCTO] podrá incorporar tecnologías IoT mediante dispositivos instalados en los vehículos, como sistemas de posicionamiento y sensores relacionados con las condiciones de transporte. Esto permitiría automatizar la obtención de información sobre la ubicación y estado de los vehículos o de determinadas cargas, complementando las capacidades de seguimiento ofrecidas por la plataforma.
+A futuro, LoadMatch podrá incorporar tecnologías IoT mediante dispositivos instalados en los vehículos, como sistemas de posicionamiento y sensores relacionados con las condiciones de transporte. Esto permitiría automatizar la obtención de información sobre la ubicación y estado de los vehículos o de determinadas cargas, complementando las capacidades de seguimiento ofrecidas por la plataforma.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -32,11 +32,11 @@ A futuro, [NOMBRE DEL PRODUCTO] podrá incorporar tecnologías IoT mediante disp
 
 <tr>
 <td align="center">
-  <img src="../assets/Chapter1/Team/member-01.jpg" alt="Integrante 1" width="150">
+  <img src="../assets/Chapter1/Team/jean.jpeg" alt="Integrante 1" width="150">
 </td>
 <td>
-  [APELLIDOS, NOMBRE DEL INTEGRANTE 1]<br>
-  <b>Código:</b> [CÓDIGO]
+  Noriega Collado, Jean Fabio<br>
+  <b>Código:</b> U202310342
 </td>
 <td>Ingeniería de Software</td>
 <td>
@@ -46,11 +46,11 @@ A futuro, [NOMBRE DEL PRODUCTO] podrá incorporar tecnologías IoT mediante disp
 
 <tr>
 <td align="center">
-  <img src="../assets/Chapter1/Team/member-02.jpg" alt="Integrante 2" width="150">
+  <img src="../assets/Chapter1/Team/christoper.jpeg" alt="Integrante 2" width="150">
 </td>
 <td>
-  [APELLIDOS, NOMBRE DEL INTEGRANTE 2]<br>
-  <b>Código:</b> [CÓDIGO]
+  Rivas Castillo, Christoper Steven<br>
+  <b>Código:</b> U202323551
 </td>
 <td>Ingeniería de Software</td>
 <td>
@@ -60,11 +60,11 @@ A futuro, [NOMBRE DEL PRODUCTO] podrá incorporar tecnologías IoT mediante disp
 
 <tr>
 <td align="center">
-  <img src="../assets/Chapter1/Team/member-03.jpg" alt="Integrante 3" width="150">
+  <img src="../assets/Chapter1/Team/ismael.jpeg" alt="Integrante 3" width="150">
 </td>
 <td>
-  [APELLIDOS, NOMBRE DEL INTEGRANTE 3]<br>
-  <b>Código:</b> [CÓDIGO]
+  Simon Calderon, Ismael Sebastian<br>
+  <b>Código:</b> U201823468
 </td>
 <td>Ingeniería de Software</td>
 <td>
@@ -74,11 +74,11 @@ A futuro, [NOMBRE DEL PRODUCTO] podrá incorporar tecnologías IoT mediante disp
 
 <tr>
 <td align="center">
-  <img src="../assets/Chapter1/Team/member-04.jpg" alt="Integrante 4" width="150">
+  <img src="../assets/Chapter1/Team/marco.jpeg" alt="Integrante 4" width="150">
 </td>
 <td>
-  [APELLIDOS, NOMBRE DEL INTEGRANTE 4]<br>
-  <b>Código:</b> [CÓDIGO]
+  Collantes, Marco<br>
+  <b>Código:</b> U201410183
 </td>
 <td>Ingeniería de Software</td>
 <td>
@@ -88,10 +88,10 @@ A futuro, [NOMBRE DEL PRODUCTO] podrá incorporar tecnologías IoT mediante disp
 
 <tr>
 <td align="center">
-  <img src="../assets/Chapter1/Team/member-05.jpg" alt="Integrante 5" width="150">
+  <img src="../assets/Chapter1/Team/emilia.jpeg" alt="Integrante 5" width="150">
 </td>
 <td>
-  [APELLIDOS, NOMBRE DEL INTEGRANTE 5]<br>
+  APELLIDOS, Emilia<br>
   <b>Código:</b> [CÓDIGO]
 </td>
 <td>Ingeniería de Software</td>
@@ -162,7 +162,7 @@ El análisis evidencia que la problemática no se limita a la inexistencia de ve
 
 Asimismo, las empresas de menor tamaño enfrentan proporcionalmente mayores costos logísticos, por lo que mantener capacidad de transporte propia no siempre constituye una alternativa eficiente. La ausencia de un espacio centralizado donde pueda registrarse la necesidad, encontrar transportistas compatibles, consultar información relevante y dar seguimiento a la operación genera una oportunidad para desarrollar una solución de intermediación digital.
 
-Por ello, [NOMBRE DEL PRODUCTO] busca reducir la fragmentación del proceso mediante una plataforma que conecte a empresas y transportistas, facilite la gestión de solicitudes, proporcione información para generar confianza entre las partes y mantenga trazabilidad desde la creación de la solicitud hasta la finalización del servicio.
+Por ello, LoadMatch busca reducir la fragmentación del proceso mediante una plataforma que conecte a empresas y transportistas, facilite la gestión de solicitudes, proporcione información para generar confianza entre las partes y mantenga trazabilidad desde la creación de la solicitud hasta la finalización del servicio.
 
 **Enunciado del problema**
 
@@ -183,7 +183,7 @@ En la actualidad, emprendimientos y micro, pequeñas y medianas empresas que req
 
 **Restricciones del proyecto**
 
-- La primera versión de [NOMBRE DEL PRODUCTO] funcionará como una plataforma de intermediación y gestión de servicios; la startup no dispondrá de una flota propia de vehículos.
+- La primera versión de LoadMatch funcionará como una plataforma de intermediación y gestión de servicios; la startup no dispondrá de una flota propia de vehículos.
 - La disponibilidad de transporte dependerá de la cantidad de transportistas registrados y de que existan vehículos compatibles con las características de cada solicitud.
 - La plataforma podrá solicitar y gestionar documentación de los transportistas, conductores y vehículos, pero la verificación automática con entidades oficiales dependerá de la disponibilidad y condiciones de acceso a fuentes o servicios externos.
 - En la primera versión, el seguimiento dependerá de las capacidades de geolocalización de los dispositivos utilizados. La implementación de dispositivos IoT dedicados forma parte de una evolución futura del producto.
@@ -193,9 +193,9 @@ En la actualidad, emprendimientos y micro, pequeñas y medianas empresas que req
 
 ### 1.2.2. Lean UX Process
 
-Para el desarrollo de [NOMBRE DEL PRODUCTO] se aplicará Lean UX con el propósito de establecer las principales creencias sobre el negocio, los usuarios y las funcionalidades propuestas para posteriormente contrastarlas mediante investigación y validación.
+Para el desarrollo de LoadMatch se aplicará Lean UX con el propósito de establecer las principales creencias sobre el negocio, los usuarios y las funcionalidades propuestas para posteriormente contrastarlas mediante investigación y validación.
 
-Debido a que [NOMBRE DEL PRODUCTO] corresponde a una nueva iniciativa y no a la mejora de un producto previamente existente, se utilizará el enfoque de *Brand New Initiative* para formular el Lean UX Problem Statement.
+Debido a que LoadMatch corresponde a una nueva iniciativa y no a la mejora de un producto previamente existente, se utilizará el enfoque de *Brand New Initiative* para formular el Lean UX Problem Statement.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
@@ -298,7 +298,7 @@ A partir de los *Feature Assumptions* definidos previamente, se plantean los sig
 
 #### 1.2.2.4. Lean UX Canvas
 
-El Lean UX Canvas de [NOMBRE DEL PRODUCTO] sintetiza los principales problemas del negocio, resultados esperados, segmentos de usuarios, beneficios, soluciones e hipótesis definidos durante el proceso de Lean UX. Su elaboración permitirá visualizar la relación existente entre la problemática identificada y las funcionalidades que se propone validar durante el desarrollo del producto.
+El Lean UX Canvas de LoadMatch sintetiza los principales problemas del negocio, resultados esperados, segmentos de usuarios, beneficios, soluciones e hipótesis definidos durante el proceso de Lean UX. Su elaboración permitirá visualizar la relación existente entre la problemática identificada y las funcionalidades que se propone validar durante el desarrollo del producto.
 
 El Canvas tendrá como punto de partida la dificultad que enfrentan determinadas empresas para acceder oportunamente a transporte de carga cuando no cuentan con una flota suficiente, así como la necesidad de los transportistas de encontrar nuevas oportunidades de servicio. De igual manera, se considerarán como elementos centrales la confianza entre ambas partes y la trazabilidad de las operaciones.
 
@@ -332,7 +332,7 @@ A continuación, se incluirá el enlace público del Lean UX Canvas elaborado po
 
 ## 1.3. Segmentos objetivo
 
-Para el desarrollo de [NOMBRE DEL PRODUCTO] se han definido inicialmente dos segmentos objetivo que participan directamente en el proceso de intermediación. El primer segmento representa la demanda de servicios de transporte dentro de la plataforma, mientras que el segundo representa la oferta disponible para atender dichas solicitudes.
+Para el desarrollo de LoadMatch se han definido inicialmente dos segmentos objetivo que participan directamente en el proceso de intermediación. El primer segmento representa la demanda de servicios de transporte dentro de la plataforma, mientras que el segundo representa la oferta disponible para atender dichas solicitudes.
 
 ### 1. Segmento 1: Emprendimientos y MIPYME que requieren servicios de transporte de carga
 
@@ -408,7 +408,7 @@ con base en la Encuesta Nacional de Logística.
 
 ### 2. Segmento 2: Transportistas independientes y pequeñas empresas de transporte de carga
 
-Este segmento está compuesto por transportistas independientes y pequeñas empresas que cuentan con uno o más vehículos destinados al traslado de mercancías y poseen capacidad para brindar servicios a terceros. Su participación es fundamental dentro de [NOMBRE DEL PRODUCTO], debido a que representan la oferta encargada de atender las solicitudes creadas por las empresas.
+Este segmento está compuesto por transportistas independientes y pequeñas empresas que cuentan con uno o más vehículos destinados al traslado de mercancías y poseen capacidad para brindar servicios a terceros. Su participación es fundamental dentro de LoadMatch, debido a que representan la oferta encargada de atender las solicitudes creadas por las empresas.
 
 La formalización y características de los vehículos constituyen información importante para este segmento. El Ministerio de Transportes y Comunicaciones mantiene un conjunto de datos del parque vehicular habilitado para el transporte terrestre de mercancías, actualizado con información hasta el 31 de diciembre de 2025. Este registro incluye datos como placa, marca, clase vehicular, número de ejes, carga útil, peso bruto y dimensiones del vehículo (Ministerio de Transportes y Comunicaciones, 2026).
 
@@ -435,10 +435,10 @@ La existencia de información oficial sobre empresas y vehículos habilitados re
 
 ### Sustento de los segmentos objetivo
 
-La relación entre ambos segmentos constituye la base del modelo de intermediación propuesto. Las empresas generan necesidades variables de traslado de mercadería, mientras que los transportistas disponen de vehículos cuya ubicación, capacidad y disponibilidad varían a lo largo del tiempo. [NOMBRE DEL PRODUCTO] busca facilitar que ambas partes puedan encontrarse y coordinar una operación bajo condiciones previamente especificadas.
+La relación entre ambos segmentos constituye la base del modelo de intermediación propuesto. Las empresas generan necesidades variables de traslado de mercadería, mientras que los transportistas disponen de vehículos cuya ubicación, capacidad y disponibilidad varían a lo largo del tiempo. LoadMatch busca facilitar que ambas partes puedan encontrarse y coordinar una operación bajo condiciones previamente especificadas.
 
 Además del sustento proporcionado por las estadísticas oficiales, existen antecedentes de investigación directamente relacionados con esta propuesta. Mattos Lucero et al. (2024) desarrollaron un estudio para evaluar la viabilidad de una plataforma colaborativa digital destinada a la intermediación y consolidación de carga entre PYMES y transportistas en Lima Metropolitana.
 
-Los autores señalan que la propuesta surge frente a ineficiencias de la logística local asociadas con altos costos y operaciones subóptimas. Asimismo, su análisis de mercado encontró que más del 70 % de las PYMES y transportistas participantes mostraron interés en adoptar soluciones digitales para la gestión logística. Este resultado no representa al universo completo de empresas y transportistas peruanos, pero constituye evidencia preliminar relevante sobre la aceptación de una solución digital dentro de segmentos similares a los planteados por [NOMBRE DEL PRODUCTO].
+Los autores señalan que la propuesta surge frente a ineficiencias de la logística local asociadas con altos costos y operaciones subóptimas. Asimismo, su análisis de mercado encontró que más del 70 % de las PYMES y transportistas participantes mostraron interés en adoptar soluciones digitales para la gestión logística. Este resultado no representa al universo completo de empresas y transportistas peruanos, pero constituye evidencia preliminar relevante sobre la aceptación de una solución digital dentro de segmentos similares a los planteados por LoadMatch.
 
 En conjunto, la representatividad de las MIPYME dentro del tejido empresarial peruano, el elevado nivel de tercerización del transporte de carga, los tiempos asociados con la consecución de vehículos y la existencia de un ecosistema formal de transportistas y vehículos habilitados respaldan la selección inicial de ambos segmentos para el desarrollo y posterior validación de la propuesta.
