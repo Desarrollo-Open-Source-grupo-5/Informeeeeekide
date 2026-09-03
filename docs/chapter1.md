@@ -60,7 +60,7 @@ A futuro, LoadMatch podrá incorporar tecnologías IoT mediante dispositivos ins
 
 <tr>
 <td align="center">
-  <img src="../assets/Chapter1/Team/ismael.jpeg" alt="Integrante 3" width="150">
+  <img src="../assets/Chapter1/Team/ismael.jpg" alt="Integrante 3" width="150">
 </td>
 <td>
   Simon Calderon, Ismael Sebastian<br>
