@@ -35,12 +35,12 @@
 
 **¿Por qué realizar este análisis?**
 
-Analizar a la competencia permite identificar sus estrategias, fortalezas y debilidades, lo que ayuda a **[NOMBRE DE STARTUP]** a desarrollar mejores tácticas para el negocio. El objetivo es diferenciarse y competir de manera más efectiva en el mercado logístico peruano, detectando oportunidades de innovación y anticipando posibles amenazas del entorno para asegurar que la propuesta de **[NOMBRE DEL PRODUCTO]** entregue un valor único.
+Analizar a la competencia permite identificar sus estrategias, fortalezas y debilidades, lo que ayuda a **CargoLink Labs** a desarrollar mejores tácticas para el negocio. El objetivo es diferenciarse y competir de manera más efectiva en el mercado logístico peruano, detectando oportunidades de innovación y anticipando posibles amenazas del entorno para asegurar que la propuesta de **LoadMatch** entregue un valor único.
 
-| Categoría | Atributo | [NOMBRE DEL PRODUCTO] | inDrive Flete | Lalamove | Scharff |
+| Categoría | Atributo | LoadMatch | inDrive Flete | Lalamove | Scharff |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| | **Nombre** | **[NOMBRE DEL PRODUCTO]** | **inDrive Flete** | **Lalamove** | **Scharff** |
-| | **Logotipo** |  | <p align="center"><img src="../assets/Chapter2/Graphics/IndriveLOGO.png" alt="inDrive" width="300"></p> | <p align="center"><img src="../assets/Chapter2/Graphics/LalamoveLOGO.png" alt="Lalamove" width="300"></p> | <p align="center"><img src="../assets/Chapter2/Graphics/scharffLOGO.png" alt="Scharff" width="300"></p> |
+| | **Nombre** | **LoadMatch** | **inDrive Flete** | **Lalamove** | **Scharff** |
+| | **Logotipo** | <p align="center"><img src="../assets/Chapter2/Graphics/loadmatch_logo.png" alt="LoadMatch" width="300"></p> | <p align="center"><img src="../assets/Chapter2/Graphics/IndriveLOGO.png" alt="inDrive" width="300"></p> | <p align="center"><img src="../assets/Chapter2/Graphics/LalamoveLOGO.png" alt="Lalamove" width="300"></p> | <p align="center"><img src="../assets/Chapter2/Graphics/scharffLOGO.png" alt="Scharff" width="300"></p> |
 | **Perfil** | **Overview** | Plataforma web de transporte de carga diseñada para negocios y emprendedores. Conecta a empresas que necesitan mover mercadería con transportistas validados, garantizando seguridad y seguimiento del servicio. | Aplicación global que conecta a conductores independientes con usuarios para el traslado libre de carga urbana. | Plataforma de entregas inmediatas para particulares y negocios, utilizando diversos tipos de vehículos. | Solución logística de una empresa tradicional que ofrece recojo, entrega y servicios corporativos completos. |
 | | **Ventaja competitiva** | Exige documentos validados para choferes y vehículos, enfocándose netamente en brindar seguridad y trazabilidad al sector empresarial. | Precios económicos fijados mediante negociación directa con el conductor antes de iniciar el viaje. | Entregas inmediatas y posibilidad de hacer múltiples paradas en una sola ruta para distribuir mercadería. | Alta formalidad, facturación detallada, seguros para la carga y gran experiencia corporativa. |
 | **Plan de marketing** | **Mercado objetivo** | Pequeñas y medianas empresas con necesidades de transporte recurrentes que valoran la seguridad. | Público general y pequeños comerciantes que buscan fletes ocasionales y baratos. | Tiendas de comercio electrónico y negocios que requieren despachos ágiles de última milla. | Empresas formales de tamaño mediano y grande que necesitan un aliado logístico estable a largo plazo. |
@@ -53,7 +53,7 @@ Analizar a la competencia permite identificar sus estrategias, fortalezas y debi
 | | **Debilidades** | El desafío inicial de convencer a suficientes conductores para que pasen por el riguroso proceso de validación documental. | Pocos filtros de seguridad en el registro, lo que genera alta desconfianza de las empresas para encomendar mercadería costosa. | Precios altos en momentos de alta demanda y frecuente rotación de conductores independientes. | Procesos largos para afiliar nuevos clientes corporativos y poca agilidad para viajes de emergencia fuera de contrato. |
 | | **Amenazas** | El ingreso de plataformas internacionales similares al mercado peruano que decidan enfocarse también en negocios formales. | Aumento de regulaciones estatales para aplicaciones de transporte y reclamos públicos por incidentes de seguridad. | Guerra de precios si entran aplicaciones con más capital de inversión que decidan subsidiar los envíos. | Startups logísticas más ágiles y económicas que modernicen el transporte y les quiten clientes tradicionales. |
 
-**Nota:** Análisis competitivo de [NOMBRE DEL PRODUCTO] en comparación con las principales soluciones del mercado logístico local.
+**Nota:** Análisis competitivo de LoadMatch en comparación con las principales soluciones del mercado logístico local.
 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
