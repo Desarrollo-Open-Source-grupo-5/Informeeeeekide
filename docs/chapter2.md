@@ -100,7 +100,7 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 | **Nombres y Apellidos** | Pilar Jeannette Collado Urbina |
 | **Edad** | 50 años |
 | **Distrito** | Breña, Lima, Perú |
-| **Enlace al video (Microsoft Stream/SharePoint)** | [Ver Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310342_upc_edu_pe/IQAt8Ki44tzjTLdPCxL9hSGQAVH7oO8GykclJBJsj6jRs4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yq6rNK) |
+| **Enlace al video (Microsoft Stream/SharePoint)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310342_upc_edu_pe/IQAt8Ki44tzjTLdPCxL9hSGQAVH7oO8GykclJBJsj6jRs4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yq6rNK |
 | **Timing de inicio y duración** | Inicio: 00:01 - Duración: 6:25 minutos |
 | **Evidencia fotográfica** | <img src="../assets/Chapter2/Interviews/LoadMatch-Trabajador.png" alt="Evidencia Entrevista 1" width="300"> |
 
