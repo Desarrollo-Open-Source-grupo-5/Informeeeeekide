@@ -97,17 +97,21 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 
 | Datos | Detalles |
 | :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | (Pendiente) |
+| **Nombres y Apellidos** | Pilar Jeannette Collado Urbina |
+| **Edad** | 50 años |
+| **Distrito** | Breña |
+| **Enlace al video (Microsoft Stream/SharePoint)** | [Ver Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310342_upc_edu_pe/IQAt8Ki44tzjTLdPCxL9hSGQAVH7oO8GykclJBJsj6jRs4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yq6rNK) |
+| **Timing de inicio y duración** | Inicio: 00:01 - Duración: 6:25 minutos |
 
 **Evidencia fotográfica:**
-<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+<p align="center"><img src="../assets/Chapter2/Interviews/LoadMatch-Trabajador.png" alt="Evidencia Entrevista 1" width="500"></p>
 
 **Resumen de la entrevista:**
-(Pendiente)
+La entrevistada es dueña de un negocio de repostería a pedido con tres años de experiencia. Se describe como una persona pragmática y sumamente cautelosa, enfocada en minimizar riesgos. En cuanto a tecnología, utiliza su *smartphone* constantemente para interactuar con clientes por redes sociales, pero prefiere la *laptop* para sus tareas administrativas. Sus referentes de confianza (marcas e influencias) son marcas consolidadas de electrodomésticos que le ofrecen garantías reales (Oster, Imaco, Indurama).
+
+Respecto a la logística de su empresa, su principal **objetivo** es crecer, adquirir más equipos, un local más grande y vehículos propios. Su mayor **frustración y miedo** radica en el maltrato de sus productos; al transportar pasteles, la presentación es crítica y ya ha sufrido malas experiencias con aplicaciones tradicionales debido a demoras y falta de cuidado. Por ello, actualmente confía en un chofer particular contratado por tiempo.
+
+Para que adopte una plataforma digital B2B, sus **requisitos indispensables** son estrictos: exige conductores con antecedentes limpios (penales, policiales, judiciales), teléfono validado, que el vehículo esté a nombre del conductor (o con domicilio verificado) e idealmente que cuenten con cajas herméticas o aislantes para alimentos. Esto refleja una necesidad imperativa de máxima confianza y cuidado extremo en el servicio.
 
 ---
 
