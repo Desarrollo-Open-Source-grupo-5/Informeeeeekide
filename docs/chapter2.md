@@ -99,12 +99,10 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 | :--- | :--- |
 | **Nombres y Apellidos** | Pilar Jeannette Collado Urbina |
 | **Edad** | 50 años |
-| **Distrito** | Breña |
+| **Distrito** | Breña, Lima, Perú |
 | **Enlace al video (Microsoft Stream/SharePoint)** | [Ver Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310342_upc_edu_pe/IQAt8Ki44tzjTLdPCxL9hSGQAVH7oO8GykclJBJsj6jRs4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yq6rNK) |
 | **Timing de inicio y duración** | Inicio: 00:01 - Duración: 6:25 minutos |
-
-**Evidencia fotográfica:**
-<p align="center"><img src="../assets/Chapter2/Interviews/LoadMatch-Trabajador.png" alt="Evidencia Entrevista 1" width="500"></p>
+| **Evidencia fotográfica** | <img src="../assets/Chapter2/Interviews/LoadMatch-Trabajador.png" alt="Evidencia Entrevista 1" width="300"> |
 
 **Resumen de la entrevista:**
 La entrevistada es dueña de un negocio de repostería a pedido con tres años de experiencia. Se describe como una persona pragmática y sumamente cautelosa, enfocada en minimizar riesgos. En cuanto a tecnología, utiliza su *smartphone* constantemente para interactuar con clientes por redes sociales, pero prefiere la *laptop* para sus tareas administrativas. Sus referentes de confianza (marcas e influencias) son marcas consolidadas de electrodomésticos que le ofrecen garantías reales (Oster, Imaco, Indurama).
@@ -124,9 +122,7 @@ Para que adopte una plataforma digital B2B, sus **requisitos indispensables** so
 | **Distrito** | (Pendiente) |
 | **Enlace al video (Microsoft Stream)** | (Pendiente) |
 | **Timing de inicio y duración** | (Pendiente) |
-
-**Evidencia fotográfica:**
-<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
 **Resumen de la entrevista:**
 (Pendiente)
@@ -142,9 +138,7 @@ Para que adopte una plataforma digital B2B, sus **requisitos indispensables** so
 | **Distrito** | (Pendiente) |
 | **Enlace al video (Microsoft Stream)** | (Pendiente) |
 | **Timing de inicio y duración** | (Pendiente) |
-
-**Evidencia fotográfica:**
-<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
 **Resumen de la entrevista:**
 (Pendiente)
@@ -160,9 +154,7 @@ Para que adopte una plataforma digital B2B, sus **requisitos indispensables** so
 | **Distrito** | (Pendiente) |
 | **Enlace al video (Microsoft Stream)** | (Pendiente) |
 | **Timing de inicio y duración** | (Pendiente) |
-
-**Evidencia fotográfica:**
-<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
 **Resumen de la entrevista:**
 (Pendiente)
@@ -178,9 +170,7 @@ Para que adopte una plataforma digital B2B, sus **requisitos indispensables** so
 | **Distrito** | (Pendiente) |
 | **Enlace al video (Microsoft Stream)** | (Pendiente) |
 | **Timing de inicio y duración** | (Pendiente) |
-
-**Evidencia fotográfica:**
-<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
 **Resumen de la entrevista:**
 (Pendiente)
@@ -196,9 +186,7 @@ Para que adopte una plataforma digital B2B, sus **requisitos indispensables** so
 | **Distrito** | (Pendiente) |
 | **Enlace al video (Microsoft Stream)** | (Pendiente) |
 | **Timing de inicio y duración** | (Pendiente) |
-
-**Evidencia fotográfica:**
-<p align="center"><i>(Pendiente - Captura de la entrevista)</i></p>
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
 **Resumen de la entrevista:**
 (Pendiente)
