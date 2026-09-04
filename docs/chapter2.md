@@ -105,11 +105,11 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 | **Evidencia fotográfica** | <img src="../assets/Chapter2/Interviews/LoadMatch-Trabajador.png" alt="Evidencia Entrevista 1" width="300"> |
 
 **Resumen de la entrevista:**
-La entrevistada es dueña de un negocio de repostería a pedido con tres años de experiencia. Se describe como una persona pragmática y sumamente cautelosa, enfocada en minimizar riesgos. En cuanto a tecnología, utiliza su *smartphone* constantemente para interactuar con clientes por redes sociales, pero prefiere la *laptop* para sus tareas administrativas. Sus referentes de confianza (marcas e influencias) son marcas consolidadas de electrodomésticos que le ofrecen garantías reales (Oster, Imaco, Indurama).
+La entrevistada es dueña de una repostería a pedido. Es pragmática y cautelosa, enfocada en minimizar riesgos. Usa su smartphone para interactuar con clientes en redes sociales y su laptop para tareas administrativas. Confía en marcas de electrodomésticos que ofrecen garantías (Oster, Imaco, Indurama).
 
-Respecto a la logística de su empresa, su principal **objetivo** es crecer, adquirir más equipos, un local más grande y vehículos propios. Su mayor **frustración y miedo** radica en el maltrato de sus productos; al transportar pasteles, la presentación es crítica y ya ha sufrido malas experiencias con aplicaciones tradicionales debido a demoras y falta de cuidado. Por ello, actualmente confía en un chofer particular contratado por tiempo.
+Su objetivo principal es crecer, adquirir más equipos y vehículos propios. Su mayor frustración es el maltrato de sus productos durante el transporte, pues la presentación es crítica. Por ello, actualmente contrata a un chofer particular.
 
-Para que adopte una plataforma digital B2B, sus **requisitos indispensables** son estrictos: exige conductores con antecedentes limpios (penales, policiales, judiciales), teléfono validado, que el vehículo esté a nombre del conductor (o con domicilio verificado) e idealmente que cuenten con cajas herméticas o aislantes para alimentos. Esto refleja una necesidad imperativa de máxima confianza y cuidado extremo en el servicio.
+Para adoptar una nueva plataforma digital, exige conductores con antecedentes limpios, teléfono validado, vehículo a nombre del conductor y cajas herméticas para alimentos, priorizando la confianza y el cuidado extremo.
 
 ---
 
