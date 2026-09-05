@@ -202,7 +202,7 @@ Para definir la propuesta de valor inicial del producto se plantea un único *Pr
 
 #### 1.2.2.2. Lean UX Assumptions
 
-A continuación, se presentan las principales creencias sobre las cuales se sostiene inicialmente la propuesta de [NOMBRE DEL PRODUCTO]. Estas suposiciones deberán ser contrastadas posteriormente mediante las entrevistas y actividades de validación realizadas con representantes de los segmentos objetivo.
+A continuación, se presentan las principales creencias sobre las cuales se sostiene inicialmente la propuesta de LoadMatch. Estas suposiciones deberán ser contrastadas posteriormente mediante las entrevistas y actividades de validación realizadas con representantes de los segmentos objetivo.
 
 **1. Business Assumptions (Suposiciones del Negocio)**
 
@@ -301,7 +301,7 @@ El Lean UX Canvas de LoadMatch sintetiza los principales problemas del negocio, 
 </p>
 
 
-A continuación, se incluirá el enlace público del Lean UX Canvas elaborado por el equipo: https://canva.link/aoctcnllt1b16e2
+Enlace público del Lean UX Canvas elaborado por el equipo: https://canva.link/aoctcnllt1b16e2
 
 ## 1.3. Segmentos objetivo
 
