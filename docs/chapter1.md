@@ -300,35 +300,19 @@ A partir de los *Feature Assumptions* definidos previamente, se plantean los sig
 
 El Lean UX Canvas de LoadMatch sintetiza los principales problemas del negocio, resultados esperados, segmentos de usuarios, beneficios, soluciones e hipótesis definidos durante el proceso de Lean UX. Su elaboración permitirá visualizar la relación existente entre la problemática identificada y las funcionalidades que se propone validar durante el desarrollo del producto.
 
-El Canvas tendrá como punto de partida la dificultad que enfrentan determinadas empresas para acceder oportunamente a transporte de carga cuando no cuentan con una flota suficiente, así como la necesidad de los transportistas de encontrar nuevas oportunidades de servicio. De igual manera, se considerarán como elementos centrales la confianza entre ambas partes y la trazabilidad de las operaciones.
-
-Para su posterior elaboración visual se utilizará como base la siguiente información:
-
-| Sección del Lean UX Canvas | Contenido propuesto |
-| :--- | :--- |
-| **Business Problem** | Las empresas que no disponen de una flota suficiente deben localizar y coordinar transporte de carga mediante múltiples proveedores o canales, mientras que transportistas con capacidad disponible necesitan acceder a nuevas solicitudes de servicio. |
-| **Business Outcomes** | Incrementar la cantidad de solicitudes atendidas, generar recurrencia de empresas, mantener transportistas activos y reducir el tiempo necesario para conectar una solicitud con un proveedor compatible. |
-| **Users** | Emprendimientos y MIPYME que requieren transportar mercadería; transportistas independientes y pequeñas empresas de transporte. |
-| **User Outcomes & Benefits** | Encontrar transporte adecuado con menor esfuerzo, contratar con mayor confianza, realizar seguimiento del servicio y acceder a nuevas oportunidades de carga. |
-| **Solutions** | Creación de solicitudes, vinculación con transportistas compatibles, perfiles validados, seguimiento del servicio e historial de incidencias y calificaciones. |
-| **Hypotheses** | Las funcionalidades propuestas reducirán el esfuerzo requerido para contratar transporte, aumentarán las solicitudes atendidas y mejorarán la confianza y trazabilidad del servicio. |
-| **What's the most important thing to learn first?** | Determinar si las empresas consideran suficientemente problemática la búsqueda y coordinación actual de transporte como para adoptar una nueva plataforma y cuáles son los factores que más influyen al seleccionar un transportista. |
-| **What's the least amount of work to learn the next most important thing?** | Entrevistar representantes de ambos segmentos y validar mediante un prototipo los procesos de creación de una solicitud, evaluación del transportista y aceptación del servicio. |
 
 **Figura 2:**
 
 *Lean UX Canvas*
 
-<!--
+
 <p align="center">
   <img src="../assets/Chapter1/Graphics/LeanUXCanvas.png" alt="Lean UX Canvas" width="800"><br>
   <i>Nota. Elaboración propia.</i>
 </p>
--->
 
-A continuación, se incluirá el enlace público del Lean UX Canvas elaborado por el equipo:
 
-[ENLACE PENDIENTE]
+A continuación, se incluirá el enlace público del Lean UX Canvas elaborado por el equipo: https://canva.link/aoctcnllt1b16e2
 
 ## 1.3. Segmentos objetivo
 
