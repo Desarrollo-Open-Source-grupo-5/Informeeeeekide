@@ -2,7 +2,32 @@
 
 ## 4.1. Style Guidelines
 
+LoadMatch es una plataforma digital orientada a facilitar la conexión entre empresas que requieren servicios de transporte de carga y transportistas con capacidad disponible. Debido a que la solución involucra procesos de coordinación, contratación, seguimiento y validación de servicios, la interfaz debe transmitir confianza, claridad y eficiencia durante toda la experiencia de uso.
+
+Las Style Guidelines de LoadMatch establecen los principales lineamientos visuales y de comunicación que deberán mantenerse de forma consistente en la Landing Page y en la Web Application. Estos lineamientos comprenden aspectos como tipografía, colores, iconografía, espaciado, componentes de interfaz y tono de comunicación.
+
+El objetivo de esta guía es mantener una identidad visual coherente en todos los puntos de interacción con el usuario y facilitar que el equipo de diseño y desarrollo trabaje bajo un mismo criterio. De esta manera, se busca que la plataforma resulte fácil de comprender, visualmente consistente y adecuada para usuarios que necesitan consultar información, crear solicitudes de transporte o gestionar servicios de manera rápida y ordenada.
+
+
 ### 4.1.1. General Style Guidelines
+
+La identidad visual de LoadMatch está orientada a transmitir confianza, profesionalismo y eficiencia, características importantes dentro de una plataforma que facilita la coordinación de servicios de transporte de carga entre diferentes participantes.
+
+El diseño busca mantener una apariencia moderna, limpia y funcional, evitando elementos visuales innecesarios que puedan dificultar la comprensión de la información. Se priorizará una jerarquía visual clara, una distribución ordenada de los elementos y una adecuada legibilidad, especialmente en secciones donde el usuario necesite consultar información relacionada con solicitudes, transportistas, vehículos o estados de servicio.
+
+Asimismo, la interfaz deberá mantener consistencia entre sus diferentes secciones, utilizando patrones visuales y componentes reconocibles que permitan al usuario identificar fácilmente acciones, estados e información relevante. Esto permitirá reducir la carga cognitiva durante la navegación y facilitar el aprendizaje progresivo del funcionamiento de la plataforma.
+
+En cuanto al tono de comunicación, LoadMatch se posiciona como una plataforma:
+
+- **Profesional**, debido a que facilita operaciones relacionadas con transporte y actividades empresariales.
+- **Confiable**, especialmente al presentar información sobre transportistas, vehículos, documentación y servicios.
+- **Clara**, utilizando textos y mensajes fáciles de comprender y evitando términos innecesariamente complejos.
+- **Directa**, priorizando instrucciones y acciones concretas durante la interacción con la plataforma.
+- **Cercana**, manteniendo una comunicación accesible tanto para empresas como para transportistas independientes.
+
+Estos principios servirán como base para definir posteriormente la tipografía, paleta de colores, iconografía, espaciado y componentes visuales utilizados en LoadMatch.
+
+#### 4.1.1.1 Tipografia
 
 ### 4.1.2. Web Style Guidelines
 
