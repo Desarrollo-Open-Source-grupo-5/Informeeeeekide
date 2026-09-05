@@ -93,53 +93,44 @@ Analizar a la competencia permite identificar sus estrategias, fortalezas y debi
 
 A continuación, se presenta el registro de las entrevistas realizadas a los representantes de cada segmento objetivo.
 
-#### Entrevista 1: Segmento 1 (Dueño de negocio/Emprendedor)
 
-| Datos | Detalles |
-| :--- | :--- |
-| **Nombres y Apellidos** | Pilar Jeannette Collado Urbina |
-| **Edad** | 50 años |
+<h2 style="text-align: center; font-weight: bold;"> Entrevista 1 - Segmento 1 (Dueño de negocio/Emprendedor) </h2>
+
+| Campo | Detalle |
+| :---: | :---: |
+| **Registro de Video** | <p align="center"> <img src="../assets/Chapter2/Interviews/LoadMatch-Trabajador.png" alt="Evidencia Entrevista 1" width="300"> </p> |
+| **Nombre y apellido** | Pilar Jeannette Collado Urbina |
 | **Distrito** | Breña, Lima, Perú |
-| **Enlace al video (Microsoft Stream/SharePoint)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310342_upc_edu_pe/IQAt8Ki44tzjTLdPCxL9hSGQAVH7oO8GykclJBJsj6jRs4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yq6rNK |
-| **Timing de inicio y duración** | Inicio: 00:01 - Duración: 6:25 minutos |
-| **Evidencia fotográfica** | <img src="../assets/Chapter2/Interviews/LoadMatch-Trabajador.png" alt="Evidencia Entrevista 1" width="300"> |
+| **Edad** | 50 años |
+| **Duración** | 6:25 minutos |
+| **Resumen** | Anjali tiene aproximadamente 20 años y vive en Villa El Salvador. Actualmente estudia la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), cursando el quinto ciclo.<br><br>Para transportarse a su centro de estudios, suele usar con más frecuencia el tren eléctrico, aunque hay tramos donde debe caminar por zonas que no conoce.<br><br>Considera que los robos de celulares o laptops entre compañeros son frecuentes, y ha manifestado que sí ha sentido miedo o incertidumbre al caminar por ciertas rutas, especialmente en zonas desconocidas o poco transitadas.<br><br>Actualmente no usa ninguna app para sentirse más segura, ya que no considera que las existentes satisfagan sus necesidades.<br><br>Frente a la posibilidad de usar una app que notifique en tiempo real al ingresar a una zona peligrosa, reaccionó con interés, señalando que le parecería muy útil y tranquilizador.<br><br>Indicó que sí usaría una app que le sugiera rutas seguras para ir a su universidad o regresar a casa, especialmente si estas rutas están verificadas por otros usuarios.<br><br>Anjali señaló que sí se sentiría motivada a contribuir con alertas o reportes en la app para ayudar a otros estudiantes. También consideró útil la opción de registrar su dispositivo móvil para facilitar la denuncia en caso de robo.<br><br>Para confiar en la app y usarla diariamente, destacó que necesitaría elementos como una interfaz clara, funcionalidades efectivas como captura de evidencias, y rastreo.<br><br>Finalmente, indicó que sí recomendaría la app a sus compañeros si esta realmente mejora su sensación de seguridad, porque tiene potencial y puede ser compartida con más personas si resuelve necesidades reales. |
+| **Link de acceso** | https://drive.google.com/file/d/1DYN3V2s2yaHNMiVmxOqclxIeb3JUsN0m/view?usp=sharing |
 
-**Resumen de la entrevista:**
-La entrevistada es dueña de una repostería a pedido. Es pragmática y cautelosa, enfocada en minimizar riesgos. Usa su smartphone para interactuar con clientes en redes sociales y su laptop para tareas administrativas. Confía en marcas de electrodomésticos que ofrecen garantías (Oster, Imaco, Indurama).
 
-Su objetivo principal es crecer, adquirir más equipos y vehículos propios. Su mayor frustración es el maltrato de sus productos durante el transporte, pues la presentación es crítica. Por ello, actualmente contrata a un chofer particular.
 
-Para adoptar una nueva plataforma digital, exige conductores con antecedentes limpios, teléfono validado, vehículo a nombre del conductor y cajas herméticas para alimentos, priorizando la confianza y el cuidado extremo.
 
----
+<h2 style="text-align: center; font-weight: bold;"> Entrevista 2 - Segmento 1 (Dueño de negocio/Emprendedor) </h2>
 
-#### Entrevista 2: Segmento 1 (Dueño de negocio/Emprendedor)
-
-| Datos | Detalles |
-| :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | (Pendiente) |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
-
-**Resumen de la entrevista:**
-(Pendiente)
-
+| Campo | Detalle |
+| :---: | :---: |
+| **Registro de Video** | <p align="center"> <img src="dffffffffffffffffffffffffff" alt="Evidencia Entrevista 1" width="300"> </p> |
+| **Nombre y apellido** | gggggggggggggggggggggggggggg |
+| **Distrito** | gggggggggggggú |
+| **Edad** | cccccccccccccccc |
+| **Duración** | cccccccs |
+| **Resumen** | ddddddddddddddddddddddd |
 ---
 
 #### Entrevista 3: Segmento 1 (Dueño de negocio/Emprendedor)
 
-| Datos | Detalles |
-| :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | (Pendiente) |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
-
+| Campo | Detalle |
+| :---: | :---: |
+| **Registro de Video** | <p align="center"> <img src="dffffffffffffffffffffffffff" alt="Evidencia Entrevista 1" width="300"> </p> |
+| **Nombre y apellido** | gggggggggggggggggggggggggggg |
+| **Distrito** | gggggggggggggú |
+| **Edad** | cccccccccccccccc |
+| **Duración** | cccccccs |
+| **Resumen** | ddddddddddddddddddddddd |
 **Resumen de la entrevista:**
 (Pendiente)
 
@@ -147,49 +138,40 @@ Para adoptar una nueva plataforma digital, exige conductores con antecedentes li
 
 #### Entrevista 4: Segmento 2 (Transportista/Conductor)
 
-| Datos | Detalles |
-| :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | (Pendiente) |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
-
-**Resumen de la entrevista:**
-(Pendiente)
+| Campo | Detalle |
+| :---: | :---: |
+| **Registro de Video** | <p align="center"> <img src="dffffffffffffffffffffffffff" alt="Evidencia Entrevista 1" width="300"> </p> |
+| **Nombre y apellido** | gggggggggggggggggggggggggggg |
+| **Distrito** | gggggggggggggú |
+| **Edad** | cccccccccccccccc |
+| **Duración** | cccccccs |
+| **Resumen** | ddddddddddddddddddddddd |
 
 ---
 
 #### Entrevista 5: Segmento 2 (Transportista/Conductor)
 
-| Datos | Detalles |
-| :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | (Pendiente) |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
-
-**Resumen de la entrevista:**
-(Pendiente)
+| Campo | Detalle |
+| :---: | :---: |
+| **Registro de Video** | <p align="center"> <img src="dffffffffffffffffffffffffff" alt="Evidencia Entrevista 1" width="300"> </p> |
+| **Nombre y apellido** | gggggggggggggggggggggggggggg |
+| **Distrito** | gggggggggggggú |
+| **Edad** | cccccccccccccccc |
+| **Duración** | cccccccs |
+| **Resumen** | ddddddddddddddddddddddd |
 
 ---
 
 #### Entrevista 6: Segmento 2 (Transportista/Conductor)
 
-| Datos | Detalles |
-| :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | (Pendiente) |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
-
-**Resumen de la entrevista:**
-(Pendiente)
+| Campo | Detalle |
+| :---: | :---: |
+| **Registro de Video** | <p align="center"> <img src="dffffffffffffffffffffffffff" alt="Evidencia Entrevista 1" width="300"> </p> |
+| **Nombre y apellido** | gggggggggggggggggggggggggggg |
+| **Distrito** | gggggggggggggú |
+| **Edad** | cccccccccccccccc |
+| **Duración** | cccccccs |
+| **Resumen** | ddddddddddddddddddddddd |
 
 
 ## 2.3. Needfinding
