@@ -94,43 +94,53 @@ Analizar a la competencia permite identificar sus estrategias, fortalezas y debi
 A continuación, se presenta el registro de las entrevistas realizadas a los representantes de cada segmento objetivo.
 
 
-<h2 style="text-align: center; font-weight: bold;"> Entrevista 1 - Segmento 1 (Dueño de negocio/Emprendedor) </h2>
+#### Entrevista 1: Segmento 1 (Dueño de negocio/Emprendedor)
 
 | Campo | Detalle |
-| :---: | :---: |
-| **Registro de Video** | <p align="center"> <img src="../assets/Chapter2/Interviews/LoadMatch-Trabajador.png" alt="Evidencia Entrevista 1" width="300"> </p> |
-| **Nombre y apellido** | Pilar Jeannette Collado Urbina |
-| **Distrito** | Breña, Lima, Perú |
+| :--- | :--- |
+| **Nombres y Apellidos** | Pilar Jeannette Collado Urbina |
 | **Edad** | 50 años |
-| **Duración** | 6:25 minutos |
-| **Resumen** | Anjali tiene aproximadamente 20 años y vive en Villa El Salvador. Actualmente estudia la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), cursando el quinto ciclo.<br><br>Para transportarse a su centro de estudios, suele usar con más frecuencia el tren eléctrico, aunque hay tramos donde debe caminar por zonas que no conoce.<br><br>Considera que los robos de celulares o laptops entre compañeros son frecuentes, y ha manifestado que sí ha sentido miedo o incertidumbre al caminar por ciertas rutas, especialmente en zonas desconocidas o poco transitadas.<br><br>Actualmente no usa ninguna app para sentirse más segura, ya que no considera que las existentes satisfagan sus necesidades.<br><br>Frente a la posibilidad de usar una app que notifique en tiempo real al ingresar a una zona peligrosa, reaccionó con interés, señalando que le parecería muy útil y tranquilizador.<br><br>Indicó que sí usaría una app que le sugiera rutas seguras para ir a su universidad o regresar a casa, especialmente si estas rutas están verificadas por otros usuarios.<br><br>Anjali señaló que sí se sentiría motivada a contribuir con alertas o reportes en la app para ayudar a otros estudiantes. También consideró útil la opción de registrar su dispositivo móvil para facilitar la denuncia en caso de robo.<br><br>Para confiar en la app y usarla diariamente, destacó que necesitaría elementos como una interfaz clara, funcionalidades efectivas como captura de evidencias, y rastreo.<br><br>Finalmente, indicó que sí recomendaría la app a sus compañeros si esta realmente mejora su sensación de seguridad, porque tiene potencial y puede ser compartida con más personas si resuelve necesidades reales. |
-| **Link de acceso** | https://drive.google.com/file/d/1DYN3V2s2yaHNMiVmxOqclxIeb3JUsN0m/view?usp=sharing |
+| **Distrito** | Breña, Lima, Perú |
+| **Enlace al video (Microsoft Stream/SharePoint)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310342_upc_edu_pe/IQAt8Ki44tzjTLdPCxL9hSGQAVH7oO8GykclJBJsj6jRs4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yq6rNK |
+| **Timing de inicio y duración** | Inicio: 00:01 - Duración: 6:25 minutos |
+| **Evidencia fotográfica** | <img src="../assets/Chapter2/Interviews/LoadMatch-Trabajador.png" alt="Evidencia Entrevista 1" width="300"> |
 
+**Resumen de la entrevista:**
+La entrevistada es dueña de una repostería a pedido. Es pragmática y cautelosa, enfocada en minimizar riesgos. Usa su smartphone para interactuar con clientes en redes sociales y su laptop para tareas administrativas. Confía en marcas de electrodomésticos que ofrecen garantías (Oster, Imaco, Indurama).
 
+Su objetivo principal es crecer, adquirir más equipos y vehículos propios. Su mayor frustración es el maltrato de sus productos durante el transporte, pues la presentación es crítica. Por ello, actualmente contrata a un chofer particular.
 
+Para adoptar una nueva plataforma digital, exige conductores con antecedentes limpios, teléfono validado, vehículo a nombre del conductor y cajas herméticas para alimentos, priorizando la confianza y el cuidado extremo.
 
-<h2 style="text-align: center; font-weight: bold;"> Entrevista 2 - Segmento 1 (Dueño de negocio/Emprendedor) </h2>
+---
+
+#### Entrevista 2: Segmento 1 (Dueño de negocio/Emprendedor)
 
 | Campo | Detalle |
-| :---: | :---: |
-| **Registro de Video** | <p align="center"> <img src="dffffffffffffffffffffffffff" alt="Evidencia Entrevista 1" width="300"> </p> |
-| **Nombre y apellido** | gggggggggggggggggggggggggggg |
-| **Distrito** | gggggggggggggú |
-| **Edad** | cccccccccccccccc |
-| **Duración** | cccccccs |
-| **Resumen** | ddddddddddddddddddddddd |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | (Pendiente) |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+
+**Resumen de la entrevista:**
+(Pendiente)
+
 ---
 
 #### Entrevista 3: Segmento 1 (Dueño de negocio/Emprendedor)
 
 | Campo | Detalle |
-| :---: | :---: |
-| **Registro de Video** | <p align="center"> <img src="dffffffffffffffffffffffffff" alt="Evidencia Entrevista 1" width="300"> </p> |
-| **Nombre y apellido** | gggggggggggggggggggggggggggg |
-| **Distrito** | gggggggggggggú |
-| **Edad** | cccccccccccccccc |
-| **Duración** | cccccccs |
-| **Resumen** | ddddddddddddddddddddddd |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | (Pendiente) |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+
 **Resumen de la entrevista:**
 (Pendiente)
 
@@ -139,46 +149,117 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 #### Entrevista 4: Segmento 2 (Transportista/Conductor)
 
 | Campo | Detalle |
-| :---: | :---: |
-| **Registro de Video** | <p align="center"> <img src="dffffffffffffffffffffffffff" alt="Evidencia Entrevista 1" width="300"> </p> |
-| **Nombre y apellido** | gggggggggggggggggggggggggggg |
-| **Distrito** | gggggggggggggú |
-| **Edad** | cccccccccccccccc |
-| **Duración** | cccccccs |
-| **Resumen** | ddddddddddddddddddddddd |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | (Pendiente) |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+
+**Resumen de la entrevista:**
+(Pendiente)
 
 ---
 
 #### Entrevista 5: Segmento 2 (Transportista/Conductor)
 
 | Campo | Detalle |
-| :---: | :---: |
-| **Registro de Video** | <p align="center"> <img src="dffffffffffffffffffffffffff" alt="Evidencia Entrevista 1" width="300"> </p> |
-| **Nombre y apellido** | gggggggggggggggggggggggggggg |
-| **Distrito** | gggggggggggggú |
-| **Edad** | cccccccccccccccc |
-| **Duración** | cccccccs |
-| **Resumen** | ddddddddddddddddddddddd |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | (Pendiente) |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+
+**Resumen de la entrevista:**
+(Pendiente)
 
 ---
 
 #### Entrevista 6: Segmento 2 (Transportista/Conductor)
 
 | Campo | Detalle |
-| :---: | :---: |
-| **Registro de Video** | <p align="center"> <img src="dffffffffffffffffffffffffff" alt="Evidencia Entrevista 1" width="300"> </p> |
-| **Nombre y apellido** | gggggggggggggggggggggggggggg |
-| **Distrito** | gggggggggggggú |
-| **Edad** | cccccccccccccccc |
-| **Duración** | cccccccs |
-| **Resumen** | ddddddddddddddddddddddd |
+| :--- | :--- |
+| **Nombres y Apellidos** | (Pendiente) |
+| **Edad** | (Pendiente) |
+| **Distrito** | (Pendiente) |
+| **Enlace al video (Microsoft Stream)** | (Pendiente) |
+| **Timing de inicio y duración** | (Pendiente) |
+| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
+**Resumen de la entrevista:**
+(Pendiente)
+
+---
+
+### 2.2.3. Análisis de entrevistas
+
+#### Segmento 1: Dueños de negocios y emprendedores
+
+**Entrevista 1 (Pilar Collado):** La entrevistada evidencia una alta aversión al riesgo en lo que respecta a la presentación y cuidado de sus productos (repostería), al punto de depender actualmente de un chofer de confianza contratado por tiempo en lugar de usar aplicativos de transporte estándar. Su testimonio demuestra que la falta de garantías en el manejo de la carga es su mayor frustración y pérdida de valor. Para mitigar este riesgo, valora positivamente que la plataforma exija filtros rigurosos a los conductores (antecedentes penales, validación vehicular) e indumentaria adecuada (cajas herméticas).
+
+**Características más comunes del Segmento 1 (n=1):**
+
+| Característica | % de entrevistados | Entrevistas | Evidencia |
+| :--- | :--- | :--- | :--- |
+| Perciben alta preocupación por el cuidado y presentación de la mercadería | 100% | #1 | Pilar señala como mayor frustración el maltrato de sus productos. |
+| Prefieren métodos de transporte propios o conocidos frente a apps estándar | 100% | #1 | Actualmente usa un chofer particular contratado por tiempo. |
+| Exigen validaciones rigurosas (antecedentes, titularidad) para confiar la carga | 100% | #1 | Exige conductores con antecedentes limpios y vehículo a nombre del conductor. |
+| Demandan equipamiento especializado en los vehículos | 100% | #1 | Solicita cajas herméticas o aislantes para alimentos. |
+
+**Conclusión del Segmento 1:**
+La entrevista preliminar sugiere que para los emprendedores (especialmente del rubro alimentario o productos delicados), la seguridad de la mercadería está por encima de la inmediatez. La exigencia de antecedentes, vehículos validados y equipamiento adecuado confirma que la propuesta de valor de **LoadMatch** de brindar transporte seguro y verificado responde a una necesidad real. La principal limitación es el tamaño de muestra (n=1), por lo que se recomienda incorporar las Entrevistas #2 y #3 para validar estos porcentajes.
+
+#### Segmento 2: Transportistas y conductores
+
+**Resumen y características:**
+(Pendiente - A la espera de entrevistas #4, #5 y #6)
+
+---
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
+En esta sección se presentan las fichas de User Persona, construidas a partir de los patrones de comportamiento y necesidades identificados en el análisis de las entrevistas de nuestros segmentos. Estos arquetipos sintetizan la información demográfica, las motivaciones, las frustraciones y las dinámicas operativas de nuestros dos segmentos objetivo. La definición de estos perfiles garantiza que el diseño de las funcionalidades de **LoadMatch** responda directamente a las urgencias reales de quienes administran envíos de carga y de quienes proveen el servicio de transporte.
+
+**User Persona 1: Carlos Mendoza - Dueño de negocio / Emprendedor**
+
+<p align="center">
+  <img src="../assets/Chapter2/Graphics/user_persona_1.png" alt="User persona Carlos Mendoza" width="600">
+</p>
+
+***Nota.*** Ficha que representa el arquetipo del Segmento 1. Detalla sus objetivos orientados a proteger la integridad de sus productos y su frustración ante la informalidad y descuido de las soluciones de transporte tradicionales.
+*(Pendiente - Ficha UXPressia)*
+
+**User Persona 2: Roberto Sánchez - Transportista / Dueño de vehículo de carga**
+
+<p align="center">
+  <img src="../assets/Chapter2/Graphics/user_persona_2.png" alt="User persona Roberto Sanchez" width="600">
+</p>
+
+***Nota.*** Ficha que representa el arquetipo del Segmento 2. Expone su necesidad de conseguir viajes seguros y confiables, y su frustración por la informalidad, la inseguridad y los bajos márgenes en aplicaciones que no lo valoran.
+*(Pendiente - Ficha UXPressia)*
+
 ### 2.3.2. User Task Matrix
+
+En esta sección se presenta el User Task Matrix, una herramienta que concentra y evalúa las tareas cotidianas que realizan nuestros dos segmentos objetivo (Dueños de negocio y Transportistas) para cumplir sus objetivos comerciales y operativos. Es fundamental destacar que estas tareas representan acciones del mundo real, independientes de cualquier solución de software, orientadas a la gestión de envíos, la verificación de seguridad y la búsqueda de servicios.
+
+A continuación, se detalla la matriz unificada, evaluando la frecuencia (Alta, Media, Baja) y la importancia (Alta, Media, Baja) de cada tarea para ambos arquetipos.
+
+| Tareas del Usuario (Independientes del software) | Dueño de Negocio (Carlos) - Frecuencia | Dueño de Negocio (Carlos) - Importancia | Transportista (Roberto) - Frecuencia | Transportista (Roberto) - Importancia |
+| :--- | :---: | :---: | :---: | :---: |
+| Buscar conductores/clientes seguros y confiables | High | High | High | High |
+| Verificar la integridad y cuidado de la mercadería | High | High | High | High |
+| Solicitar documentos o garantías antes del viaje | Medium | High | Medium | Medium |
+| Coordinar puntos de recojo y entrega | High | High | High | High |
+| Monitorear el estado o ubicación del transporte | High | High | Medium | Low |
+| Gestionar los pagos y cobros de los servicios | High | High | High | High |
+
+**Análisis de la Matriz de Tareas:**
+*(Pendiente - Se completará tras evaluar en conjunto con el equipo la matriz).*
 
 ### 2.3.3. User Journey Mapping
 
