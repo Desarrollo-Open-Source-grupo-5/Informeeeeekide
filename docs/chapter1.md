@@ -338,22 +338,8 @@ La dimensión de este segmento es significativa dentro del contexto empresarial 
 
 *Distribución de empresas formales según tamaño empresarial en el Perú, 2024*
 
-<!--
-Datos para elaborar posteriormente el gráfico:
-
-Microempresa: 93.8 %
-Pequeña empresa: 5.3 %
-Mediana empresa: 0.2 %
-Gran empresa: 0.7 %
-
-Total de empresas: 2 346 592
-MIPYME: 2 331 173 (99.3 %)
-
-Fuente: Ministerio de la Producción (2025).
--->
-
 <p align="center">
-  <!-- <img src="../assets/Chapter1/Graphics/DistribucionMipyme.png" alt="Distribución de empresas formales por tamaño" width="600"><br> -->
+  <img src="../assets/Chapter1/Graphics/DistribucionMipyme.png" alt="Distribución de empresas formales por tamaño" width="600"><br>
   <i>Nota. Elaboración propia con datos del Ministerio de la Producción (2025).</i>
 </p>
 
@@ -363,19 +349,8 @@ La relevancia de ofrecer alternativas de transporte externo también se relacion
 
 *Tercerización del transporte de carga y distribución*
 
-<!--
-Datos para elaborar posteriormente el gráfico:
-
-Ejecuta directamente: 18.9 %
-No se realiza / No aplica: 10.0 %
-Terceriza el servicio: 71.1 %
-
-Fuente: Ministerio de Transportes y Comunicaciones (2023),
-con base en la Encuesta Nacional de Logística.
--->
-
 <p align="center">
-  <!-- <img src="../assets/Chapter1/Graphics/TercerizacionTransporte.png" alt="Tercerización del transporte de carga" width="600"><br> -->
+  <img src="../assets/Chapter1/Graphics/TercerizacionTransporte.png" alt="Tercerización del transporte de carga" width="600"><br> 
   <i>Nota. Elaboración propia con datos del Ministerio de Transportes y Comunicaciones (2023), basados en la Encuesta Nacional de Logística.</i>
 </p>
 
