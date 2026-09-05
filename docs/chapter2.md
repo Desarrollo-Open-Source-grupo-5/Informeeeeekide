@@ -122,11 +122,12 @@ Para adoptar una nueva plataforma digital, exige conductores con antecedentes li
 | **Edad** | (Pendiente) |
 | **Distrito** | (Pendiente) |
 | **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | (Pendiente) |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
 | **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
 **Resumen de la entrevista:**
 (Pendiente)
+
 
 ---
 
@@ -138,7 +139,7 @@ Para adoptar una nueva plataforma digital, exige conductores con antecedentes li
 | **Edad** | (Pendiente) |
 | **Distrito** | (Pendiente) |
 | **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | (Pendiente) |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 0:00 minutos |
 | **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
 
 **Resumen de la entrevista:**
@@ -150,15 +151,20 @@ Para adoptar una nueva plataforma digital, exige conductores con antecedentes li
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
-| **Edad** | (Pendiente) |
-| **Distrito** | (Pendiente) |
-| **Enlace al video (Microsoft Stream)** | (Pendiente) |
-| **Timing de inicio y duración** | (Pendiente) |
-| **Evidencia fotográfica** | *(Pendiente - Captura de la entrevista)* |
+| **Nombres y Apellidos** | Mateo Ignacio Vargas Huamán |
+| **Edad** | 26 años |
+| **Distrito** | San Juan de Lurigancho, Lima, Perú |
+| **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323551_upc_edu_pe/IQB202QxElaeSbRKuQOrZ3XgARvfvQPkIKKUwLtaRsqauuE?e=FRdDfF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Timing de inicio y duración** | Inicio: 00:00 - Duración: 6:41 minutos |
+| **Evidencia fotográfica** | <img src="" alt="Evidencia Entrevista 2" width="300"> |
 
 **Resumen de la entrevista:**
-(Pendiente)
+
+El entrevistado es copiloto y administrador operativo del negocio de transporte de carga familiar (camión de 10 toneladas). Es analítico, nativo digital y pragmático, actuando como puente entre la "vieja escuela" de su padre y la modernización del rubro. Usa su smartphone como herramienta principal para todo el día a día (WhatsApp, Waze, Yape/Plin, GPS) y reserva la laptop solo para trámites formales en casa.
+
+Su objetivo principal es dejar de depender de intermediarios informales ("coyotes"), conseguir contratos directos con empresas medianas para tener un flujo de caja predecible y renovar su unidad. Su mayor frustración es la desconfianza de las empresas por la mala fama general del sector, los pagos a 60-90 días, los "clientes fantasma" y la competencia desleal del transporte informal.
+
+Para adoptar una nueva plataforma digital, está totalmente dispuesto a pasar por un proceso estricto de validación documental. Exige que la plataforma le otorgue un distintivo visible de "Transportista Verificado" o "Socio Logístico Confiable", ya que considera que esta validación es su mejor argumento de venta para diferenciarse del informal y ganar la confianza de clientes empresariales serios.
 
 ---
 
