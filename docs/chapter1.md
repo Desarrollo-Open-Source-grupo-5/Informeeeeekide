@@ -103,7 +103,7 @@ A futuro, LoadMatch podrá incorporar tecnologías IoT mediante dispositivos ins
 </tbody>
 </table>
 
-**Nota:** Información de los integrantes del equipo de desarrollo.
+<p align="center"> Nota: Información de los integrantes del equipo de desarrollo. </p>
 
 ## 1.2. Solution Profile
 
@@ -301,7 +301,7 @@ El Lean UX Canvas de LoadMatch sintetiza los principales problemas del negocio, 
 </p>
 
 
-Enlace público del Lean UX Canvas elaborado por el equipo: https://canva.link/aoctcnllt1b16e2
+<p align="center"> Enlace público del Lean UX Canvas elaborado por el equipo: https://canva.link/aoctcnllt1b16e2 </p>
 
 ## 1.3. Segmentos objetivo
 
