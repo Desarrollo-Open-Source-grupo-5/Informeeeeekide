@@ -139,20 +139,9 @@ Para comprender con mayor claridad el problema, sus causas, participantes e impa
 
 *Costo logístico como porcentaje de las ventas según tamaño empresarial*
 
-<!--
-Datos para elaborar posteriormente el gráfico:
-
-Microempresa: 21.1 %
-Pequeña empresa: 18.2 %
-Mediana empresa: 16.0 %
-Gran empresa: 15.7 %
-
-Fuente: Ministerio de Transportes y Comunicaciones (2023),
-con base en la Encuesta Nacional de Logística.
--->
 
 <p align="center">
-  <!-- <img src="../assets/Chapter1/Graphics/CostoLogisticoPorEmpresa.png" alt="Costo logístico según tamaño empresarial" width="600"><br> -->
+  <img src="../assets/Chapter1/Graphics/CostoLogisticoPorEmpresa.png" alt="Costo logístico según tamaño empresarial" width="600"><br>
   <i>Nota. Elaboración propia con datos del Ministerio de Transportes y Comunicaciones (2023), basados en la Encuesta Nacional de Logística.</i>
 </p>
 
@@ -307,7 +296,7 @@ El Lean UX Canvas de LoadMatch sintetiza los principales problemas del negocio, 
 
 
 <p align="center">
-  <img src="../assets/Chapter1/Graphics/LeanUXCanvas.png" alt="Lean UX Canvas" width="800"><br>
+  <img src="../assets/Chapter1/UX Designs/LeanUXCanvas.png" alt="Lean UX Canvas" width="800"><br>
   <i>Nota. Elaboración propia.</i>
 </p>
 
