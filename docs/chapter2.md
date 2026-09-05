@@ -156,7 +156,7 @@ Para adoptar una nueva plataforma digital, exige conductores con antecedentes li
 | **Distrito** | San Juan de Lurigancho, Lima, Perú |
 | **Enlace al video (Microsoft Stream)** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323551_upc_edu_pe/IQB202QxElaeSbRKuQOrZ3XgARvfvQPkIKKUwLtaRsqauuE?e=FRdDfF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Timing de inicio y duración** | Inicio: 00:00 - Duración: 6:41 minutos |
-| **Evidencia fotográfica** | <img src="" alt="Evidencia Entrevista 2" width="300"> |
+| **Evidencia fotográfica** | <img src="../assets/Chapter2/Interviews/Imagensegmento1-crivas.jpeg" alt="Evidencia Entrevista 2" width="300"> |
 
 **Resumen de la entrevista:**
 
