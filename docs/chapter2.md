@@ -232,7 +232,6 @@ En esta sección se presentan las fichas de User Persona, construidas a partir d
 </p>
 
 ***Nota.*** Ficha que representa el arquetipo del Segmento 1. Detalla sus objetivos orientados a proteger la integridad de sus productos y su frustración ante la informalidad y descuido de las soluciones de transporte tradicionales.
-*(Pendiente - Ficha UXPressia)*
 
 **User Persona 2: Roberto Sánchez - Transportista / Dueño de vehículo de carga**
 
@@ -241,7 +240,6 @@ En esta sección se presentan las fichas de User Persona, construidas a partir d
 </p>
 
 ***Nota.*** Ficha que representa el arquetipo del Segmento 2. Expone su necesidad de conseguir viajes seguros y confiables, y su frustración por la informalidad, la inseguridad y los bajos márgenes en aplicaciones que no lo valoran.
-*(Pendiente - Ficha UXPressia)*
 
 ### 2.3.2. User Task Matrix
 
