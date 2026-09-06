@@ -12,14 +12,15 @@
 ### Nombre del profesor: Hugo Allan Mori Paiva
 
 ### Informe de Trabajo Final
-### Startup: [Nombre del startup]
-### Producto: [Nombre del producto]
+### Startup: CargoLink Labs
+### Producto: LoadMatch
 
 ### Relación de integrantes:
 - Noriega Collado, Jean Fabio (u202310342)
-- [Apellidos y Nombres] ([Código])
-- [Apellidos y Nombres] ([Código])
-- [Apellidos y Nombres] ([Código])
-- [Apellidos y Nombres] ([Código])
+- Collantes Artola, Marco Antonio (u201410183)
+- Rivas Castillo, Christopher Steven (u202323551)
+- Ismael Simon ([Código])
+- Duran Santander, Emilia ([Código])
+- Harold ([Código])
 
 ### Mes y año: Septiembre 2026
