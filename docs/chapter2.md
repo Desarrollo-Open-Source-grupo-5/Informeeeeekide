@@ -118,7 +118,7 @@ Para adoptar una nueva plataforma digital, exige conductores con antecedentes li
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombres y Apellidos** | (Pendiente) |
+| **Nombres y Apellidos** | (Pendienthe) |
 | **Edad** | (Pendiente) |
 | **Distrito** | (Pendiente) |
 | **Enlace al video (Microsoft Stream)** | (Pendiente) |
