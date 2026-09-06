@@ -40,7 +40,7 @@ Se han definido los siguientes Epics:
 | US16 | Endpoint de creación de viaje | Como Developer, deseo implementar un endpoint POST de solicitudes de carga, para recibir y almacenar los fletes en la BD. | **Scenario 1: Recepción de carga**<br>_Given_ que el cliente envía datos de carga<br>_When_ el payload es válido<br>_Then_ retorna un HTTP 201 Created. | EP07 |
 | US17 | Endpoint de matching geoespacial | Como Developer, deseo implementar un endpoint GET de viajes cercanos, para alimentar el catálogo del transportista. | **Scenario 1: Retorno de lista**<br>_Given_ que el cliente envía una ubicación<br>_When_ la API procesa el radio de cercanía<br>_Then_ retorna los viajes en formato JSON (HTTP 200). | EP07 |
 | US18 | Regla de validación de documentos | Como Developer, deseo configurar un proceso asíncrono que impida a transportistas no validados aceptar viajes, para garantizar la seguridad. | **Scenario 1: Intento de aceptación sin validar**<br>_Given_ que un conductor sin documentos aprobados intenta aceptar un viaje<br>_When_ la API evalúa su estado<br>_Then_ rechaza la operación (HTTP 403 Forbidden). | EP07 |
-
+| US19 | Pago al transportista por servicio completado | Como dueño de negocio, quiero pagar al transportista con tarjeta una vez que el servicio ha sido entregado, para completar la transacción del viaje contratado. | **Scenario 1: Pago exitoso tras entrega**<br>_Given_ que el viaje se encuentra en estado Entregado<br>_When_ la empresa paga con tarjeta y la pasarela confirma la transacción<br>_Then_ el sistema registra el pago como completado<br>_And_ notifica al transportista.<br><br>**Scenario 2: Pago rechazado por la pasarela**<br>_Given_ que la empresa ingresa los datos de una tarjeta<br>_When_ la pasarela rechaza la transacción<br>_Then_ el sistema marca el pago como fallido<br>_And_ permite reintentar con otra tarjeta.<br><br>**Scenario 3: Calificación posterior al pago exitoso**<br>_Given_ que el pago fue registrado como completado<br>_When_ el sistema confirma la transacción<br>_Then_ muestra a la empresa la pantalla para calificar al conductor (US10). | EP08 |
 ## 3.2. Impact Mapping
 
 El Impact Mapping ha sido elaborado de manera colaborativa utilizando la herramienta **UXpressia**, estructurado en los niveles de Business Goals, Personas, Impacts, Deliverables y sus correspondientes User Stories, alineados a los segmentos de empresas y transportistas de LoadMatch.
@@ -59,7 +59,7 @@ A continuación se presenta el Product Backlog del proyecto LoadMatch, priorizad
 Para la estimación del esfuerzo se ha utilizado la secuencia de Fibonacci (1, 2, 3, 5, 8). La gestión del Product Backlog se lleva a cabo mediante la herramienta **Jira Software**.
 
 <p align="center">
-  <img src="../assets/Chapter3/ProductBacklog.png" alt="Product Backlog" width="800">
+  <img src="../assets/Chapter3/product_backlog.png" alt="Product Backlog" width="800">
   <br><em>Figura 2: Captura del Product Backlog priorizado por valor de negocio</em>
 </p>
 
