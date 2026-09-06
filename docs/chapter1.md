@@ -103,7 +103,7 @@ A futuro, LoadMatch podrá incorporar tecnologías IoT mediante dispositivos ins
 </tbody>
 </table>
 
-**Nota:** Información de los integrantes del equipo de desarrollo.
+<p align="center"> Nota: Información de los integrantes del equipo de desarrollo. </p>
 
 ## 1.2. Solution Profile
 
@@ -139,20 +139,9 @@ Para comprender con mayor claridad el problema, sus causas, participantes e impa
 
 *Costo logístico como porcentaje de las ventas según tamaño empresarial*
 
-<!--
-Datos para elaborar posteriormente el gráfico:
-
-Microempresa: 21.1 %
-Pequeña empresa: 18.2 %
-Mediana empresa: 16.0 %
-Gran empresa: 15.7 %
-
-Fuente: Ministerio de Transportes y Comunicaciones (2023),
-con base en la Encuesta Nacional de Logística.
--->
 
 <p align="center">
-  <!-- <img src="../assets/Chapter1/Graphics/CostoLogisticoPorEmpresa.png" alt="Costo logístico según tamaño empresarial" width="600"><br> -->
+  <img src="../assets/Chapter1/Graphics/CostoLogisticoPorEmpresa.png" alt="Costo logístico según tamaño empresarial" width="600"><br>
   <i>Nota. Elaboración propia con datos del Ministerio de Transportes y Comunicaciones (2023), basados en la Encuesta Nacional de Logística.</i>
 </p>
 
@@ -213,7 +202,7 @@ Para definir la propuesta de valor inicial del producto se plantea un único *Pr
 
 #### 1.2.2.2. Lean UX Assumptions
 
-A continuación, se presentan las principales creencias sobre las cuales se sostiene inicialmente la propuesta de [NOMBRE DEL PRODUCTO]. Estas suposiciones deberán ser contrastadas posteriormente mediante las entrevistas y actividades de validación realizadas con representantes de los segmentos objetivo.
+A continuación, se presentan las principales creencias sobre las cuales se sostiene inicialmente la propuesta de LoadMatch. Estas suposiciones deberán ser contrastadas posteriormente mediante las entrevistas y actividades de validación realizadas con representantes de los segmentos objetivo.
 
 **1. Business Assumptions (Suposiciones del Negocio)**
 
@@ -300,35 +289,19 @@ A partir de los *Feature Assumptions* definidos previamente, se plantean los sig
 
 El Lean UX Canvas de LoadMatch sintetiza los principales problemas del negocio, resultados esperados, segmentos de usuarios, beneficios, soluciones e hipótesis definidos durante el proceso de Lean UX. Su elaboración permitirá visualizar la relación existente entre la problemática identificada y las funcionalidades que se propone validar durante el desarrollo del producto.
 
-El Canvas tendrá como punto de partida la dificultad que enfrentan determinadas empresas para acceder oportunamente a transporte de carga cuando no cuentan con una flota suficiente, así como la necesidad de los transportistas de encontrar nuevas oportunidades de servicio. De igual manera, se considerarán como elementos centrales la confianza entre ambas partes y la trazabilidad de las operaciones.
-
-Para su posterior elaboración visual se utilizará como base la siguiente información:
-
-| Sección del Lean UX Canvas | Contenido propuesto |
-| :--- | :--- |
-| **Business Problem** | Las empresas que no disponen de una flota suficiente deben localizar y coordinar transporte de carga mediante múltiples proveedores o canales, mientras que transportistas con capacidad disponible necesitan acceder a nuevas solicitudes de servicio. |
-| **Business Outcomes** | Incrementar la cantidad de solicitudes atendidas, generar recurrencia de empresas, mantener transportistas activos y reducir el tiempo necesario para conectar una solicitud con un proveedor compatible. |
-| **Users** | Emprendimientos y MIPYME que requieren transportar mercadería; transportistas independientes y pequeñas empresas de transporte. |
-| **User Outcomes & Benefits** | Encontrar transporte adecuado con menor esfuerzo, contratar con mayor confianza, realizar seguimiento del servicio y acceder a nuevas oportunidades de carga. |
-| **Solutions** | Creación de solicitudes, vinculación con transportistas compatibles, perfiles validados, seguimiento del servicio e historial de incidencias y calificaciones. |
-| **Hypotheses** | Las funcionalidades propuestas reducirán el esfuerzo requerido para contratar transporte, aumentarán las solicitudes atendidas y mejorarán la confianza y trazabilidad del servicio. |
-| **What's the most important thing to learn first?** | Determinar si las empresas consideran suficientemente problemática la búsqueda y coordinación actual de transporte como para adoptar una nueva plataforma y cuáles son los factores que más influyen al seleccionar un transportista. |
-| **What's the least amount of work to learn the next most important thing?** | Entrevistar representantes de ambos segmentos y validar mediante un prototipo los procesos de creación de una solicitud, evaluación del transportista y aceptación del servicio. |
 
 **Figura 2:**
 
 *Lean UX Canvas*
 
-<!--
+
 <p align="center">
-  <img src="../assets/Chapter1/Graphics/LeanUXCanvas.png" alt="Lean UX Canvas" width="800"><br>
+  <img src="../assets/Chapter1/UX Designs/LeanUXCanvas.png" alt="Lean UX Canvas" width="800"><br>
   <i>Nota. Elaboración propia.</i>
 </p>
--->
 
-A continuación, se incluirá el enlace público del Lean UX Canvas elaborado por el equipo:
 
-[ENLACE PENDIENTE]
+<p align="center"> Enlace público del Lean UX Canvas elaborado por el equipo: https://canva.link/aoctcnllt1b16e2 </p>
 
 ## 1.3. Segmentos objetivo
 
@@ -365,22 +338,8 @@ La dimensión de este segmento es significativa dentro del contexto empresarial 
 
 *Distribución de empresas formales según tamaño empresarial en el Perú, 2024*
 
-<!--
-Datos para elaborar posteriormente el gráfico:
-
-Microempresa: 93.8 %
-Pequeña empresa: 5.3 %
-Mediana empresa: 0.2 %
-Gran empresa: 0.7 %
-
-Total de empresas: 2 346 592
-MIPYME: 2 331 173 (99.3 %)
-
-Fuente: Ministerio de la Producción (2025).
--->
-
 <p align="center">
-  <!-- <img src="../assets/Chapter1/Graphics/DistribucionMipyme.png" alt="Distribución de empresas formales por tamaño" width="600"><br> -->
+  <img src="../assets/Chapter1/Graphics/DistribucionMipyme.png" alt="Distribución de empresas formales por tamaño" width="600"><br>
   <i>Nota. Elaboración propia con datos del Ministerio de la Producción (2025).</i>
 </p>
 
@@ -390,19 +349,8 @@ La relevancia de ofrecer alternativas de transporte externo también se relacion
 
 *Tercerización del transporte de carga y distribución*
 
-<!--
-Datos para elaborar posteriormente el gráfico:
-
-Ejecuta directamente: 18.9 %
-No se realiza / No aplica: 10.0 %
-Terceriza el servicio: 71.1 %
-
-Fuente: Ministerio de Transportes y Comunicaciones (2023),
-con base en la Encuesta Nacional de Logística.
--->
-
 <p align="center">
-  <!-- <img src="../assets/Chapter1/Graphics/TercerizacionTransporte.png" alt="Tercerización del transporte de carga" width="600"><br> -->
+  <img src="../assets/Chapter1/Graphics/TercerizacionTransporte.png" alt="Tercerización del transporte de carga" width="600"><br> 
   <i>Nota. Elaboración propia con datos del Ministerio de Transportes y Comunicaciones (2023), basados en la Encuesta Nacional de Logística.</i>
 </p>
 
