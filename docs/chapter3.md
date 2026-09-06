@@ -12,6 +12,7 @@ Se han definido los siguientes Epics:
 - **EP05:** Calificación y Reputación.
 - **EP06:** Gestión del Landing Page.
 - **EP07:** Technical Features & RESTful API.
+- **EP08:** Gestión de Pagos.
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---|---|---|---|---|
