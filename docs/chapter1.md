@@ -77,12 +77,12 @@ A futuro, LoadMatch podrá incorporar tecnologías IoT mediante dispositivos ins
   <img src="../assets/Chapter1/Team/marco.jpeg" alt="Integrante 4" width="150">
 </td>
 <td>
-  Collantes, Marco<br>
+  Collantes Artola, Marco Antonio<br>
   <b>Código:</b> U201410183
 </td>
 <td>Ingeniería de Software</td>
 <td>
-  Estudiante de [PENDIENTE].
+  Me considero bueno trabajando en equipo dando apoyo y asesoría cuando se necesita aplicar el ir un paso a la vez a la hora de desarrollar proyectos. Soy bueno a la hora de trabajar en programas como el Visual Studio, WebStorm, Word y Excel con notas y trabajos satisfactoriamente exitosos. Disfruto mucho de investigar sobre nuevos temas y soy fanático acérrimo del cine y la buena música.
 </td>
 </tr>
 
