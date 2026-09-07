@@ -88,3 +88,5 @@ Para la estimación del esfuerzo se ha utilizado la secuencia de Fibonacci (1, 2
 | 16 | US10 | Calificación del transportista | Como dueño de negocio, deseo calificar el servicio del transportista, para construir confianza en la comunidad de la plataforma. | 2 |
 | 17 | US11 | Historial de servicios | Como transportista, deseo revisar mi historial de viajes completados, para llevar un control de mis ingresos y métricas. | 2 |
 | 18 | US05 | Cancelación de solicitud | Como dueño de negocio, deseo cancelar una solicitud de transporte no asignada, para evitar cobros si mis planes logísticos cambian. | 2 |
+| 19 | US19 | Validación automática de transportista | Como Developer, quiero validar automáticamente la placa del vehículo contra el padrón del MTC y verificar formato/vigencia de los documentos, para habilitar o rechazar al transportista sin intervención manual. | 5 |
+| 20 | US20 | Pago al transportista por servicio completado | Como dueño de negocio, quiero pagar al transportista con tarjeta una vez que el servicio ha sido entregado, para completar la transacción del viaje contratado. | 5 |
