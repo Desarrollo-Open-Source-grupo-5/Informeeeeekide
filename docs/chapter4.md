@@ -47,8 +47,8 @@ La jerarquía tipográfica de LoadMatch se organiza de la siguiente manera:
 El interlineado se adapta aproximadamente entre 1.3 y 1.5 veces el tamaño de la fuente, favoreciendo la lectura tanto en bloques de contenido como en interfaces con alta densidad de información. Para etiquetas y elementos pequeños se aplica un ligero espaciado entre caracteres con el fin de mejorar su diferenciación visual.
 
 <p align="center">
-  <img src="../assets/images/style-guidelines/Tipografia.png" alt="Tipografía" width="700"><br>
-  Nota: Sistema tipográfico utilizado en la identidad visual de LoadMatch
+  <img src="../assets/images/style-guidelines/Tipografia.png" alt="Tipografía" width="800"><br>
+  <i>Nota. Sistema tipográfico utilizado en la identidad visual de LoadMatch</i>
 </p>
 
 #### 4.1.1.2. Colors
@@ -70,11 +70,68 @@ Finalmente, se utiliza una escala de tonos **Slate** para textos, bordes, iconos
 El uso consistente de esta paleta facilita la identificación de acciones y estados, mantiene una adecuada jerarquía visual y refuerza la identidad gráfica de LoadMatch.
 
 <p align="center">
-  <img src="../assets/images/style-guidelines/Colores.png" alt="Tipografía" width="700"><br>
-  Nota: Paleta de colores oficial utilizada en la identidad visual de InstAlert
+  <img src="../assets/images/style-guidelines/Colores.png" alt="Tipografía" width="800"><br>
+  <i>Nota. Sistema tipográfico utilizado en la identidad visual de LoadMatch.</i>
 </p>
 
+#### 4.1.1.3. Spacing
+
+El sistema de espaciado de LoadMatch se basa en una cuadrícula de **4 píxeles**, permitiendo mantener consistencia visual entre los diferentes componentes de la interfaz. A partir de esta unidad base se utilizan principalmente valores de **4, 8, 12, 16, 24 y 32 píxeles**, dependiendo del nivel de separación requerido.
+
+Los espacios de **4 px** se emplean principalmente entre elementos muy próximos, como iconos y textos; **8 px** para agrupaciones compactas y componentes pequeños; **12 px** para separaciones internas frecuentes; **16 px** para el contenido de tarjetas y formularios; **24 px** para secciones con mayor separación visual; y **32 px** para dividir bloques principales dentro de una página.
+
+Este sistema permite organizar la información de manera clara y predecible, evitando la saturación visual y facilitando la lectura de elementos operativos como solicitudes de carga, formularios, estados y rutas. Asimismo, contribuye a mantener una experiencia consistente en las distintas vistas de la plataforma.
+
+#### 4.1.1.4. Iconography
+
+La iconografía de LoadMatch sigue un estilo **simple, reconocible y consistente**, orientado a facilitar la comprensión rápida de las principales acciones y funcionalidades de la plataforma. Los iconos se utilizan como apoyo visual en elementos de navegación, formularios, estados, botones y diferentes componentes relacionados con la gestión del transporte de carga.
+
+Se priorizan iconos de apariencia limpia y principalmente lineal, manteniendo proporciones y tamaños consistentes dentro de cada contexto de uso. En elementos activos o acciones prioritarias, los iconos pueden adoptar el color principal de LoadMatch, **Primary Orange (#FE6B00)**, mientras que los elementos secundarios utilizan principalmente tonos de la escala Slate.
+
+Entre los principales usos de la iconografía se encuentran acciones como **buscar cargas, publicar una carga, consultar rutas, acceder al historial, gestionar el perfil, configurar la cuenta, visualizar notificaciones y consultar información relacionada con vehículos o documentación**.
+
+El uso de iconos junto con etiquetas textuales permite disminuir la carga cognitiva y facilita la navegación tanto para empresas que requieren servicios de transporte como para transportistas que buscan nuevas oportunidades de carga.
+
+<p align="center">
+  <img src="../assets/images/style-guidelines/Iconografia.png" alt="Sistema de iconografía de LoadMatch" width="800"><br>
+  <i>Nota. Sistema de iconografía utilizado en la interfaz de LoadMatch.</i>
+</p>
+
+#### 4.1.1.5. Tone of Communication and Applied Language
+
+El tono de comunicación de LoadMatch es **claro, directo, profesional y orientado a la acción**. Debido a que la plataforma se utiliza para gestionar operaciones relacionadas con transporte y logística, la información debe presentarse de manera sencilla y comprensible, evitando términos innecesariamente complejos o mensajes ambiguos.
+
+Los textos de la interfaz priorizan instrucciones breves y acciones fácilmente identificables, especialmente en procesos como la publicación de una carga, búsqueda de oportunidades, seguimiento de servicios, actualización de documentación y gestión del perfil.
+
+Algunos ejemplos del lenguaje utilizado dentro de la plataforma son:
+
+- **“Publicar nueva carga”**
+- **“Buscar fletes”**
+- **“Mis cargas”**
+- **“En ruta ahora”**
+- **“Verificado”**
+- **“Cuenta en revisión”**
+- **“Completa los datos técnicos y logísticos”**
+
+Los mensajes relacionados con estados, advertencias o validaciones mantienen el mismo enfoque, informando al usuario de manera precisa sobre lo que ocurre y, cuando corresponde, indicando la acción que debe realizar.
+
+Este estilo de comunicación busca generar confianza y facilitar la interacción de usuarios con diferentes niveles de experiencia digital, manteniendo al mismo tiempo una identidad profesional acorde con el contexto logístico de LoadMatch.
+
 ### 4.1.2. Web Style Guidelines
+
+El diseño visual de la aplicación web de LoadMatch sigue una línea moderna, clara y funcional, orientada a facilitar la gestión de operaciones logísticas y la consulta rápida de información relevante. La interfaz prioriza la legibilidad, la jerarquía visual y la consistencia entre los diferentes módulos de la plataforma.
+
+La estructura visual se apoya en el uso de **Inter** como tipografía principal de interfaz, combinada de manera puntual con **Liberation Serif** en determinados encabezados destacados. La paleta de colores utiliza el **Primary Orange (#FE6B00)** como color de énfasis para acciones principales, estados activos y elementos seleccionados, mientras que los tonos **Dark Navy (#0B1C30)**, **Sidebar Dark (#131B2E)** y la escala **Slate** se emplean en navegación, textos, bordes y elementos secundarios.
+
+Los componentes interactivos mantienen patrones visuales consistentes. Los botones principales utilizan fondo naranja y texto blanco, mientras que las acciones secundarias emplean fondos claros, bordes suaves y tonos neutros. Los formularios utilizan campos con bordes redondeados, etiquetas claras y estados visuales diferenciados para foco, validación y error.
+
+La navegación principal de la aplicación se organiza mediante una barra lateral oscura, donde el estado activo se resalta con el color naranja de la marca. El encabezado superior mantiene un fondo claro e integra elementos como búsqueda, información del usuario y accesos rápidos, facilitando la orientación dentro de la plataforma.
+
+Las tarjetas, tablas, formularios, modales y paneles de seguimiento utilizan fondos claros, bordes sutiles, radios de esquina consistentes y una jerarquía de espaciado basada en múltiplos de 4 píxeles. Esto permite separar visualmente la información sin sobrecargar la interfaz.
+
+La aplicación también emplea colores semánticos y badges para representar estados como **verificado, completado, en tránsito, pendiente o cancelado**, permitiendo que el usuario identifique rápidamente el estado de una operación.
+
+Finalmente, el diseño web de LoadMatch considera principios de diseño responsive, buscando mantener la claridad, funcionalidad y consistencia de la interfaz en distintos tamaños de pantalla. Todos los elementos visuales se plantean con un propósito funcional, priorizando una experiencia sencilla, profesional y orientada a la ejecución rápida de tareas.
 
 ## 4.2. Information Architecture
 
