@@ -51,7 +51,28 @@ El interlineado se adapta aproximadamente entre 1.3 y 1.5 veces el tamaño de la
   Nota: Sistema tipográfico utilizado en la identidad visual de LoadMatch
 </p>
 
-#### 4.1.1.2. Colores
+#### 4.1.1.2. Colors
+
+La paleta de colores de LoadMatch ha sido definida con el propósito de transmitir una identidad visual moderna, confiable y vinculada al entorno logístico. El sistema combina colores de marca con tonos neutros y colores semánticos que permiten diferenciar acciones, estados e información dentro de la plataforma.
+
+El **naranja (#FE6B00)** constituye el color principal de LoadMatch y se utiliza especialmente en acciones importantes, botones principales, elementos seleccionados, indicadores y puntos de énfasis dentro de la interfaz. Su uso permite dirigir rápidamente la atención del usuario hacia las acciones prioritarias.
+
+Como variación para estados de interacción se utiliza el tono **Orange Pressed (#D04100)**, principalmente en estados activos o presionados de componentes interactivos.
+
+Los tonos **Dark Navy (#0B1C30)** y **Sidebar Dark (#131B2E)** son empleados en elementos estructurales y de navegación, especialmente en fondos oscuros, barras laterales, encabezados y determinadas áreas de alto contraste. Estos colores permiten equilibrar visualmente el naranja principal y contribuyen a transmitir una imagen profesional y confiable.
+
+Para los fondos y superficies se utilizan principalmente **White (#FFFFFF)**, **Background Light (#F8FAFC)** y **Blue Tint Background (#EFF4FF)**. Estos tonos claros permiten mantener una interfaz limpia y facilitan la separación visual entre secciones, tarjetas, formularios y otros componentes.
+
+LoadMatch también utiliza colores semánticos para comunicar el estado de determinadas operaciones. El **Success Green (#059669)** identifica estados positivos, como elementos verificados o procesos completados, mientras que el **Error Red (#DC2626)** se emplea para errores, cancelaciones o acciones destructivas. Los estados de advertencia e información utilizan tonos diferenciados que permiten al usuario reconocer rápidamente el significado de cada indicador.
+
+Finalmente, se utiliza una escala de tonos **Slate** para textos, bordes, iconos, separadores y elementos secundarios de la interfaz. Esta escala permite establecer distintos niveles de jerarquía visual sin recurrir constantemente a los colores principales de la marca.
+
+El uso consistente de esta paleta facilita la identificación de acciones y estados, mantiene una adecuada jerarquía visual y refuerza la identidad gráfica de LoadMatch.
+
+<p align="center">
+  <img src="../assets/images/style-guidelines/Colores.png" alt="Tipografía" width="700"><br>
+  Nota: Paleta de colores oficial utilizada en la identidad visual de InstAlert
+</p>
 
 ### 4.1.2. Web Style Guidelines
 
