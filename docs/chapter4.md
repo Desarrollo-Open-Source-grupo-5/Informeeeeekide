@@ -27,7 +27,31 @@ En cuanto al tono de comunicación, LoadMatch se posiciona como una plataforma:
 
 Estos principios servirán como base para definir posteriormente la tipografía, paleta de colores, iconografía, espaciado y componentes visuales utilizados en LoadMatch.
 
-#### 4.1.1.1 Tipografia
+#### 4.1.1.1. Typography
+
+La tipografía de LoadMatch ha sido definida con el objetivo de mantener una interfaz clara, profesional y legible en contextos donde los usuarios necesitan consultar información operativa de manera rápida, como solicitudes de carga, estados de servicio, rutas, documentación y seguimiento.
+
+La familia tipográfica principal de la plataforma es **Inter**, utilizada en la mayor parte de la interfaz por su alta legibilidad en entornos digitales y su versatilidad para establecer diferentes niveles de jerarquía visual. Se emplean distintos pesos tipográficos, entre ellos Regular, Medium, SemiBold, Bold y ExtraBold, de acuerdo con la relevancia de cada elemento dentro de la interfaz.
+
+Como tipografía complementaria se utiliza **Liberation Serif** en determinados títulos y elementos destacados de identidad visual. Su uso se mantiene limitado a encabezados específicos con el propósito de generar contraste visual sin afectar la consistencia general de la plataforma.
+
+La jerarquía tipográfica de LoadMatch se organiza de la siguiente manera:
+
+- **Page Title / H1:** Inter ExtraBold, 30 px.
+- **Section Heading / H2:** Inter Bold, entre 20 px y 24 px.
+- **Subheading:** Inter SemiBold, 16 px.
+- **Body Text:** Inter Regular, 14 px.
+- **Small / Caption:** Inter Regular, 12 px.
+- **Micro / Labels:** Inter Regular, 11 px.
+
+El interlineado se adapta aproximadamente entre 1.3 y 1.5 veces el tamaño de la fuente, favoreciendo la lectura tanto en bloques de contenido como en interfaces con alta densidad de información. Para etiquetas y elementos pequeños se aplica un ligero espaciado entre caracteres con el fin de mejorar su diferenciación visual.
+
+<p align="center">
+  <img src="../assets/images/style-guidelines/Tipografia.png" alt="Tipografía" width="700"><br>
+  Nota: Sistema tipográfico utilizado en la identidad visual de LoadMatch
+</p>
+
+#### 4.1.1.2. Colores
 
 ### 4.1.2. Web Style Guidelines
 
