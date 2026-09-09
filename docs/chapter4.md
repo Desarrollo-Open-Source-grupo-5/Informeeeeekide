@@ -349,6 +349,8 @@ Seguimiento de cargas:
 
 A continuación veremos el funcionamiento preliminar de la aplicación por medio de un prototipo creado en la plataforma Figma, en donde se buscó reflejar el funcionamiento preliminar de los user flow diagrams mencionados anteriormente así como otras funciones básicas de la aplicación web:
 
+<img src="../assets/images/style-guidelines/Prototyping.png">
+
 <a href="https://www.figma.com/proto/b2Bc4VRPXUGY61iyefa5I6/LoadMatch---Open-Source?node-id=120-997&p=f&t=QaRc5OxVLBUH4lHu-0&scaling=scale-down&content-scaling=fixed&page-id=120%3A2&starting-point-node-id=120%3A3">Prototipo en Figma de LoadMatch</a>
 
 ## 4.6. Domain-Driven Software Architecture
