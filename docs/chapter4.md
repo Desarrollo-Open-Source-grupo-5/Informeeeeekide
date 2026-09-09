@@ -133,17 +133,191 @@ La aplicación también emplea colores semánticos y badges para representar est
 
 Finalmente, el diseño web de LoadMatch considera principios de diseño responsive, buscando mantener la claridad, funcionalidad y consistencia de la interfaz en distintos tamaños de pantalla. Todos los elementos visuales se plantean con un propósito funcional, priorizando una experiencia sencilla, profesional y orientada a la ejecución rápida de tareas.
 
-## 4.2. Information Architecture
+## 4.2. Information Architecture.
 
-### 4.2.1. Organization Systems
+La arquitectura de información de LoadMatch se ha definido con el propósito de organizar el contenido y las funcionalidades de manera clara, consistente y fácil de recorrer. Debido a que la solución atiende a dos segmentos principales —empresas que requieren transportar carga y transportistas que buscan oportunidades de servicio—, la estructura se adapta a las necesidades y tareas de cada tipo de usuario.
 
-### 4.2.2. Labeling Systems
+Para ello, se emplean sistemas de organización jerárquicos y secuenciales, etiquetas breves y comprensibles, mecanismos de búsqueda y filtrado, y patrones de navegación que permiten localizar información y completar las principales tareas dentro de la Landing Page y la Web Application.
 
-### 4.2.3. SEO Tags and Meta Tags
 
-### 4.2.4. Searching Systems
+### 4.2.1. Organization Systems.
 
-### 4.2.5. Navigation Systems
+LoadMatch utiliza principalmente una organización **jerárquica**, debido a que las funcionalidades se agrupan desde categorías generales hacia opciones más específicas. Esta estructura se aplica tanto en la Landing Page como en la Web Application.
+
+En la **Landing Page**, el contenido se organiza por tópicos como **Cómo funciona**, **Para empresas**, **Para transportistas** y **Preguntas frecuentes**. Asimismo, se aplica una categorización según audiencia al diferenciar contenidos y llamadas a la acción para empresas y transportistas.
+
+La estructura principal de la Landing Page considera:
+
+- Inicio.
+- Cómo funciona.
+- Para empresas.
+- Para transportistas.
+- Preguntas frecuentes.
+- Iniciar sesión.
+- Registrarse.
+
+También se utilizan flujos **secuenciales** en acciones como el registro y autenticación, donde el usuario debe completar una serie de pasos antes de acceder a la plataforma.
+
+<p align="center">
+  <img src="../assets/images/information-architecture/OrganizationSystemsLandingPage.png" alt="Sistema de organización de la Landing Page de LoadMatch" width="800"><br>
+  <i>Nota. Sistema de organización jerárquica de la Landing Page de LoadMatch.</i>
+</p>
+
+En la **Web Application**, la información se organiza principalmente según la audiencia o tipo de usuario.
+
+Para empresas, las principales categorías son:
+
+- Dashboard.
+- Mis Cargas.
+- Historial.
+- Configuración.
+
+A partir de estas secciones se accede a funciones específicas como publicar una nueva carga, gestionar solicitudes o realizar el seguimiento de un servicio.
+
+Para transportistas, las principales categorías son:
+
+- Buscar Fletes.
+- Mis Viajes.
+- Historial.
+- Mi Perfil.
+
+Dentro de estas secciones se encuentran funcionalidades más específicas como aplicar filtros de búsqueda, consultar viajes en progreso, visualizar el seguimiento de una ruta o gestionar documentación.
+
+También se utiliza una organización **cronológica** para separar operaciones actuales de anteriores, como ocurre en Historial y en la clasificación de viajes en progreso y completados.
+
+La organización matricial no constituye la estructura principal de LoadMatch, aunque se utiliza de manera puntual en sistemas de búsqueda donde el usuario puede combinar diferentes criterios, como ruta, distancia, tipo de vehículo, peso y tarifa.
+
+<p align="center">
+  <img src="../assets/images/information-architecture/OrganizationSystemsWebApp.png" alt="Sistema de organización de la Web Application de LoadMatch" width="800"><br>
+  <i>Nota. Sistema de organización de la Web Application de LoadMatch según el tipo de usuario.</i>
+</p>
+
+
+### 4.2.2. Labeling Systems.
+
+El sistema de etiquetado de LoadMatch utiliza términos breves, descriptivos y orientados a la acción. Se busca reducir la ambigüedad y utilizar el menor número de palabras posible para que el usuario pueda comprender rápidamente la función de cada sección o elemento.
+
+Las etiquetas se mantienen consistentes según el contexto de uso:
+
+| CONTEXTO | ETIQUETAS PRINCIPALES |
+| :--- | :--- |
+| **Landing Page** | Cómo funciona, Para empresas, Para transportistas, Preguntas frecuentes, Iniciar sesión, Registrarse |
+| **Empresa** | Dashboard, Mis Cargas, Historial, Configuración, Publicar Nueva Carga, Ver Seguimiento |
+| **Transportista** | Buscar Fletes, Mis Viajes, Historial, Mi Perfil, Ver Detalles, Ir al Mapa |
+| **Estados** | En Tránsito, Buscando Unidad, Completado, En Camino, Aprobado, Pendiente |
+
+Las etiquetas correspondientes a acciones utilizan principalmente verbos, como **Publicar**, **Buscar**, **Gestionar**, **Ver** o **Cancelar**, mientras que las etiquetas de estado describen directamente la condición actual de una carga, viaje o documento.
+
+Esta diferenciación facilita que el usuario pueda reconocer rápidamente si un elemento representa una sección, una acción o un estado.
+
+<p align="center">
+  <img src="../assets/images/information-architecture/LabelingSystems.png" alt="Sistema de etiquetado de LoadMatch" width="800"><br>
+  <i>Nota. Sistema de etiquetado utilizado en la Landing Page y Web Application de LoadMatch.</i>
+</p>
+
+
+### 4.2.3. SEO Tags and Meta Tags.
+
+Los SEO Tags y Meta Tags de LoadMatch se definen con el objetivo de describir correctamente el contenido de las principales páginas de la Landing Page y la Web Application.
+
+En la Landing Page se priorizan términos relacionados con transporte de carga, logística, empresas y transportistas. Para las vistas internas de la aplicación, los metadatos describen la función específica de cada página.
+
+| PÁGINA | TITLE | DESCRIPTION | KEYWORDS | AUTHOR |
+| :--- | :--- | :--- | :--- | :--- |
+| **Landing Page** | LoadMatch \| Transporte de carga para empresas y transportistas | Conecta empresas que necesitan transportar carga con transportistas y unidades disponibles mediante LoadMatch. | transporte de carga, transportistas, fletes, logística, empresas, MYPE | LoadMatch Development Team |
+| **Login / Registro** | Accede a LoadMatch \| Empresas y Transportistas | Inicia sesión o crea una cuenta para gestionar servicios de transporte de carga con LoadMatch. | LoadMatch, iniciar sesión, registro, transportista, empresa | LoadMatch Development Team |
+| **Dashboard Empresa** | Dashboard \| LoadMatch | Gestiona cargas, servicios en tránsito y operaciones de transporte desde el panel de LoadMatch. | dashboard, cargas, seguimiento, transporte, logística | LoadMatch Development Team |
+| **Buscar Fletes** | Buscar Fletes \| LoadMatch | Consulta oportunidades de carga disponibles y encuentra fletes compatibles con tu unidad. | buscar fletes, cargas disponibles, transportistas, rutas | LoadMatch Development Team |
+
+Adicionalmente, las páginas utilizan `lang="es"` y el Meta Tag `viewport` para asegurar una correcta presentación en diferentes tamaños de pantalla.
+
+En el caso de las vistas autenticadas, estos metadatos también permiten identificar claramente cada página dentro del navegador, aunque su objetivo principal no sea el posicionamiento público en motores de búsqueda.
+
+
+### 4.2.4. Searching Systems.
+
+LoadMatch incorpora mecanismos de búsqueda y filtrado para evitar que el usuario tenga que recorrer manualmente grandes cantidades de información. Los criterios disponibles dependen del tipo de usuario y de la tarea realizada.
+
+#### Searching System para empresas
+
+Las empresas disponen de una barra de búsqueda orientada a localizar operaciones específicas.
+
+| CRITERIO | DESCRIPCIÓN |
+| :--- | :--- |
+| **Código de carga** | Permite localizar directamente una solicitud mediante su identificador. |
+| **Ruta** | Permite encontrar cargas relacionadas con un origen o destino determinado. |
+| **Transportista** | Permite localizar operaciones asociadas a un transportista. |
+| **Estado** | Facilita la identificación de cargas en tránsito, buscando unidad o completadas. |
+
+Los resultados se presentan principalmente mediante tablas y tarjetas donde se muestran datos como **ID de carga, ruta, estado y acciones disponibles**.
+
+#### Searching System para transportistas
+
+La sección **Buscar Fletes** permite buscar oportunidades mediante ID de carga, ruta, origen o destino. También incorpora filtros para reducir los resultados según las necesidades del transportista.
+
+| FILTRO | DESCRIPCIÓN |
+| :--- | :--- |
+| **Ruta / Origen / Destino** | Permite localizar oportunidades según el recorrido del servicio. |
+| **Distancia máxima** | Define el radio máximo de búsqueda en kilómetros. |
+| **Tipo de vehículo / carga** | Filtra oportunidades compatibles con la unidad del transportista. |
+| **Peso mínimo** | Permite establecer el tonelaje mínimo requerido. |
+| **Tarifa mínima** | Permite mostrar únicamente fletes que alcancen un monto mínimo. |
+| **Coincidencia con mi vehículo** | Muestra oportunidades compatibles con las especificaciones de la unidad registrada. |
+| **Ordenamiento** | Permite ordenar los resultados, por ejemplo, desde los más recientes. |
+
+Los resultados se presentan mediante tarjetas que muestran información como **origen, destino, peso, tipo de mercadería, vehículo requerido, horario y tarifa**, acompañadas de una opción para acceder al detalle del flete.
+
+La interfaz también incorpora una representación geográfica que permite visualizar las oportunidades disponibles en relación con la ubicación del transportista.
+
+
+### 4.2.5. Navigation Systems.
+
+El sistema de navegación de LoadMatch se ha diseñado para que los usuarios puedan recorrer el contenido de manera predecible y acceder rápidamente a las funciones relacionadas con sus objetivos.
+
+Se diferencia entre la navegación de la Landing Page y la navegación correspondiente a cada perfil de la Web Application.
+
+#### Navigation System de la Landing Page
+
+La Landing Page utiliza una navegación horizontal en escritorio y un menú adaptable en dispositivos móviles.
+
+| NOMBRE | DESCRIPCIÓN |
+| :--- | :--- |
+| **Cómo funciona** | Explica el funcionamiento general de LoadMatch. |
+| **Para empresas** | Presenta información y beneficios para empresas que necesitan transportar carga. |
+| **Para transportistas** | Presenta información y oportunidades para transportistas. |
+| **Preguntas frecuentes** | Permite resolver dudas comunes sobre el servicio. |
+| **Iniciar sesión** | Permite acceder a una cuenta existente. |
+| **Registrarse** | Permite iniciar el proceso de creación de una cuenta. |
+
+También se utilizan llamadas a la acción como **Necesito transportar carga** y **Soy transportista**, que permiten dirigir rápidamente al visitante hacia el flujo correspondiente.
+
+#### Navigation System para empresas
+
+La Web Application de empresas utiliza una barra lateral persistente.
+
+| NOMBRE | DESCRIPCIÓN |
+| :--- | :--- |
+| **Dashboard** | Presenta un resumen de cargas y operaciones activas. |
+| **Mis Cargas** | Permite consultar y gestionar las solicitudes registradas. |
+| **Historial** | Permite revisar operaciones realizadas anteriormente. |
+| **Configuración** | Permite administrar opciones relacionadas con la cuenta. |
+
+Acciones como **Publicar Nueva Carga**, **Ver Seguimiento**, **Gestionar** o **Cancelar Carga** se presentan de manera contextual dentro de las secciones correspondientes.
+
+#### Navigation System para transportistas
+
+Para los transportistas también se utiliza una barra lateral persistente adaptada a sus principales tareas.
+
+| NOMBRE | DESCRIPCIÓN |
+| :--- | :--- |
+| **Buscar Fletes** | Permite localizar oportunidades de carga disponibles. |
+| **Mis Viajes** | Permite consultar viajes en progreso y completados. |
+| **Historial** | Permite revisar servicios realizados anteriormente. |
+| **Mi Perfil** | Permite gestionar datos personales y documentación. |
+
+Dentro de **Mis Viajes**, el usuario puede recorrer secuencialmente el proceso de un servicio mediante acciones como **Ir al Mapa**, **Reportar Llegada a Destino** y **Finalizar Viaje**.
+
+De esta manera, LoadMatch combina una navegación principal sencilla con acciones contextuales y flujos secuenciales, evitando sobrecargar los menús con opciones que únicamente son necesarias en momentos específicos.
 
 ## 4.3. Landing Page UI Design
 
