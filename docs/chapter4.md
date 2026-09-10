@@ -343,15 +343,15 @@ Ingreso de usuarios registrados:
 
 <img src="../assets/images/Graphics/UserFlow2.png">
 
+Configuración de perfil (registro de SOAT y licencia):
+
+<img src="../assets/images/Graphics/UserFlow4.png">
+
 Registro de nuevas cargas para transportar:
 
-<img src="">
+<img src="../assets/images/Graphics/UserFlow3.png">
 
 Seguimiento de cargas:
-
-<img src="">
-
-
 
 <img src="">
 
