@@ -369,14 +369,51 @@ A continuación veremos el funcionamiento preliminar de la aplicación por medio
 
 ### 4.6.2. Software Architecture Context Diagram
 
+El Diagrama de Contexto define el alcance del sistema LoadMatch, identificando a los usuarios principales (Shippers y Carriers) y su interacción con las plataformas externas necesarias para la validación de seguridad, geolocalización y pasarela de pagos.
+
+<div align="center">
+  <img src="../assets/images/Graphics/Diagrama-contexto-loadmatch.jpeg" alt="Diagram-context" width="600"><br>
+  <i>Nota. Diagrama de Contexto elaborado en structurizr aplicando el Modelo C4..</i>
+</div>
+
 ### 4.6.3. Software Architecture Container Diagrams
 
+El Diagrama de Contenedores expone la topología técnica de LoadMatch, separando la capa de presentación SPA (Angular), el punto de entrada estático (Landing Page), el núcleo transaccional REST (Spring Boot) y la persistencia de datos (PostgreSQL).
+
+<div align="center">
+  <img src="../assets/images/Graphics/Diagrama-contenedor-loadmatch.jpeg" alt="Diagram-context" width="600"><br>
+  <i>Nota. Diagrama de Contenedores elaborado en structurizr aplicando el Modelo C4.</i>
+</div>
+
 ### 4.6.4. Software Architecture Components Diagrams
+
+El Diagrama de Componentes realiza un "zoom in" al contenedor Backend REST API, mapeando exactamente los Bounded Contexts definidos en los Epics (IAM, Freight, Matching, Tracking, Payments).
+
+<div align="center">
+  <img src="../assets/images/Graphics/Diagrama-componentes-loadmatch.jpeg" alt="Diagram-component" width="600"><br>
+  <i>Nota. Diagrama de Componentes del API elaborado en structurizr aplicando el Modelo C4.</i>
+</div>
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
+Este diagrama de clases UML modela las entidades extraídas del análisis de las Historias de Usuario (US) y Technical Stories (TS). 
+
+<div align="center">
+  <img src="../assets/images/Graphics/Diagrama-UML-loadmatch.jpeg" alt="Diagram-UML" width="600"><br>
+  <i>Nota. Diagrama de Clases UML modelando los Bounded Contexts principales en structurizr.</i>
+</div>
+
 ## 4.8. Database Design
 
+El diseño de la base de datos asegura la persistencia estructural de Loadmatch mediante un modelo relacional en MySQL.
+
 ### 4.8.1. Database Diagrams
+
+El siguiente Diagrama Entidad-Relación (ERD) documenta las tablas, columnas, tipos de datos, llaves primarias (PK) en formato UUID (CHAR 36) y restricciones de llave foránea (FK) que garantizan la integridad referencial del sistema logístico. 
+
+<div align="center">
+  <img src="../assets/images/Graphics/Diagram-entity-relacional5.jpeg" alt="Diagram-entity-relacional" width="600"><br>
+  <i>Nota. Diagrama Entidad-Relación (ERD) hecho en structurizr.</i>
+</div>
