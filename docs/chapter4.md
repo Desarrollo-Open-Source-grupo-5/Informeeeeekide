@@ -353,7 +353,11 @@ Registro de nuevas cargas para transportar:
 
 Seguimiento de cargas:
 
-<img src="">
+<img src="../assets/images/Graphics/UserFlow5.png">
+
+Búsqueda de fletes:
+
+<img src="../assets/images/Graphics/UserFlow6.png">
 
 ## 4.5. Web Applications Prototyping
 
