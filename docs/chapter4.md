@@ -411,13 +411,13 @@ Este diagrama de clases UML modela las entidades extraídas del análisis de las
 
 ## 4.8. Database Design
 
-El diseño de la base de datos asegura la persistencia estructural de Loadmatch mediante un modelo relacional en MySQL.
+El diseño de la base de datos asegura la persistencia estructural de LoadMatch mediante un modelo relacional en PostgreSQL.
 
 ### 4.8.1. Database Diagrams
 
-El siguiente Diagrama Entidad-Relación (ERD) documenta las tablas, columnas, tipos de datos, llaves primarias (PK) en formato UUID (CHAR 36) y restricciones de llave foránea (FK) que garantizan la integridad referencial del sistema logístico. 
+El siguiente Diagrama Entidad-Relación (ERD) documenta las tablas, columnas, tipos de datos, llaves primarias (PK) de tipo entero autoincremental y restricciones de llave foránea (FK) que garantizan la integridad referencial del sistema logístico. El modelo incluye una tabla `Usuario` como entidad padre para garantizar la unicidad de correo electrónico a nivel de plataforma, catálogos reutilizables (`TipoDocumento`, `TipoVehiculo`) con cardinalidad uno a muchos, y una relación opcional entre `Solicitud_viaje` y `Transportista` que refleja el flujo de marketplace abierto, donde una solicitud puede publicarse sin transportista asignado hasta que uno la acepte.
 
 <div align="center">
-  <img src="../assets/images/Graphics/Diagram-entity-relacional5.jpeg" alt="Diagram-entity-relacional" width="600"><br>
-  <i>Nota. Diagrama Entidad-Relación (ERD) hecho en structurizr.</i>
+  <img src="../assets/images/Graphics/diagrama-entidad-relacion.png" alt="Diagrama Entidad-Relacion LoadMatch" width="700"><br>
+  <i>Nota. Diagrama Entidad-Relación (ERD) de LoadMatch, elaborado en [nombre de tu herramienta].</i>
 </div>
