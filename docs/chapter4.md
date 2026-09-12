@@ -57,21 +57,54 @@ La paleta de colores de LoadMatch ha sido definida con el propósito de transmit
 
 El **naranja (#FE6B00)** constituye el color principal de LoadMatch y se utiliza especialmente en acciones importantes, botones principales, elementos seleccionados, indicadores y puntos de énfasis dentro de la interfaz. Su uso permite dirigir rápidamente la atención del usuario hacia las acciones prioritarias.
 
-Como variación para estados de interacción se utiliza el tono **Orange Pressed (#D04100)**, principalmente en estados activos o presionados de componentes interactivos.
+Como variación para estados de interacción se utiliza el tono **Orange Pressed (#A04100)**, principalmente en estados activos o presionados de componentes interactivos, y como color de texto cuando se requiere aplicar el énfasis de marca sobre fondos claros.
 
 Los tonos **Dark Navy (#0B1C30)** y **Sidebar Dark (#131B2E)** son empleados en elementos estructurales y de navegación, especialmente en fondos oscuros, barras laterales, encabezados y determinadas áreas de alto contraste. Estos colores permiten equilibrar visualmente el naranja principal y contribuyen a transmitir una imagen profesional y confiable.
 
 Para los fondos y superficies se utilizan principalmente **White (#FFFFFF)**, **Background Light (#F8FAFC)** y **Blue Tint Background (#EFF4FF)**. Estos tonos claros permiten mantener una interfaz limpia y facilitan la separación visual entre secciones, tarjetas, formularios y otros componentes.
 
-LoadMatch también utiliza colores semánticos para comunicar el estado de determinadas operaciones. El **Success Green (#059669)** identifica estados positivos, como elementos verificados o procesos completados, mientras que el **Error Red (#DC2626)** se emplea para errores, cancelaciones o acciones destructivas. Los estados de advertencia e información utilizan tonos diferenciados que permiten al usuario reconocer rápidamente el significado de cada indicador.
+LoadMatch también utiliza colores semánticos para comunicar el estado de determinadas operaciones. El **Success Green (#059669)** identifica estados positivos, como elementos verificados o procesos completados; el **Error Red (#DC2626)** se emplea para errores, cancelaciones o acciones destructivas; el **Warning Yellow (#F59E0B)** señala advertencias o información que requiere atención del usuario; y el **Info Blue (#3B82F6)** se utiliza para mensajes informativos y elementos de orientación general.
 
-Finalmente, se utiliza una escala de tonos **Slate** para textos, bordes, iconos, separadores y elementos secundarios de la interfaz. Esta escala permite establecer distintos niveles de jerarquía visual sin recurrir constantemente a los colores principales de la marca.
+Finalmente, se utiliza una escala de tonos **Slate** para textos, bordes, iconos, separadores y elementos secundarios de la interfaz. Los valores empleados son Slate 900 (#0F172A) para títulos, Slate 700 (#334155) para texto de cuerpo, Slate 600 (#475569) para texto secundario, Slate 300 (#CBD5E1) y Slate 200 (#E2E8F0) para bordes y separadores. Esta escala permite establecer distintos niveles de jerarquía visual sin recurrir constantemente a los colores principales de la marca.
 
-El uso consistente de esta paleta facilita la identificación de acciones y estados, mantiene una adecuada jerarquía visual y refuerza la identidad gráfica de LoadMatch.
+##### Criterios de accesibilidad de la paleta
+
+La paleta fue verificada contra el criterio WCAG 2.1 nivel AA (1.4.3 Contraste mínimo), que exige una relación de contraste de 4.5:1 para texto normal y de 3:1 para texto grande y componentes de interfaz.
+
+De esta verificación se desprende una regla de aplicación obligatoria: **el Primary Orange y el Warning Yellow son colores de luminancia alta y requieren texto oscuro, mientras que el Orange Pressed, el Error Red y los tonos Navy son de luminancia baja y admiten texto blanco.**
+
+| Color de fondo | Texto blanco | Texto Dark Navy | Combinación válida |
+| :--- | :--- | :--- | :--- |
+| Primary Orange #FE6B00 | 2.87 | **5.98** | Texto Dark Navy |
+| Warning Yellow #F59E0B | 2.15 | **8.00** | Texto Dark Navy |
+| Success Green #059669 | 3.77 | **4.56** | Texto Dark Navy |
+| Info Blue #3B82F6 | 3.68 | **4.67** | Texto Dark Navy |
+| Orange Pressed #A04100 | **6.46** | 2.66 | Texto blanco |
+| Error Red #DC2626 | **4.83** | 3.56 | Texto blanco |
+| Dark Navy #0B1C30 | **17.17** | — | Texto blanco |
+| Sidebar Dark #131B2E | **17.16** | — | Texto blanco |
+
+Cuando un color semántico se utiliza como **texto** sobre fondo claro, se emplea su variante oscura, dado que los tonos base no alcanzan el mínimo requerido:
+
+| Uso como texto | Tono base | Ratio | Variante a utilizar | Ratio |
+| :--- | :--- | :--- | :--- | :--- |
+| Énfasis de marca | #FE6B00 | 2.87 | **#A04100** | 6.46 |
+| Advertencia | #F59E0B | 2.15 | **#B45309** | 5.02 |
+| Éxito | #059669 | 3.77 | **#047857** | 5.48 |
+| Información | #3B82F6 | 3.68 | **#1D4ED8** | 6.70 |
+
+Asimismo, se establecen las siguientes restricciones de uso:
+
+- El **Primary Orange (#FE6B00)** no se utiliza como color de texto sobre fondos claros ni como indicador de foco sobre fondo blanco, dado que no alcanza el 3:1 exigido por el criterio 1.4.11 para componentes de interfaz. El indicador de foco emplea Dark Navy.
+- El tono **Slate 400 (#94A3B8)** se reserva para bordes e iconografía decorativa; no se utiliza como color de texto, ya que alcanza únicamente 2.56 sobre blanco.
+- Sobre el **Blue Tint Background (#EFF4FF)** el texto debe emplear Slate 600 o un tono más oscuro.
+- Ningún estado se comunica exclusivamente mediante color: los indicadores combinan color, iconografía y texto, conforme al criterio 1.4.1 (Uso del color).
+
+El uso consistente de esta paleta facilita la identificación de acciones y estados, mantiene una adecuada jerarquía visual, garantiza la legibilidad conforme a WCAG 2.1 AA y refuerza la identidad gráfica de LoadMatch.
 
 <p align="center">
-  <img src="../assets/images/style-guidelines/Colores.png" alt="Tipografía" width="800"><br>
-  <i>Nota. Sistema tipográfico utilizado en la identidad visual de LoadMatch.</i>
+  <img src="../assets/images/style-guidelines/Colores.png" alt="Paleta de colores de LoadMatch" width="800"><br>
+  <i>Nota. Sistema de color utilizado en la identidad visual de LoadMatch.</i>
 </p>
 
 #### 4.1.1.3. Spacing
@@ -369,55 +402,404 @@ A continuación veremos el funcionamiento preliminar de la aplicación por medio
 
 ## 4.6. Domain-Driven Software Architecture
 
+En esta sección se presenta la arquitectura de software de LoadMatch construida bajo el enfoque de Domain-Driven Design. El punto de partida es el Big Picture Event Storming desarrollado en el Capítulo II, sobre el cual el equipo profundizó mediante una sesión de Design-Level Event Storming para identificar con mayor precisión los eventos de dominio, comandos, políticas, modelos de lectura, agregados y bounded contexts que componen la solución.
+
+A partir de los bounded contexts identificados se elaboró la representación de la arquitectura aplicando el Modelo C4, descendiendo desde el diagrama de contexto hasta los diagramas de componentes de cada contenedor. El orden no es casual: los bounded contexts descubiertos en el Event Storming son los que determinan la descomposición en componentes del Nivel 3, de modo que cada componente de la arquitectura puede rastrearse hasta un agrupamiento del tablero.
+
 ### 4.6.1. Design-Level Event Storming
+
+Como referencia del punto de partida, se presenta el Big Picture Event Storming elaborado en el Capítulo II, ya con la notación de colores unificada respecto del Design-Level. El tablero recorre tres momentos: el registro libre de eventos por proceso, su ordenamiento cronológico, y la incorporación de actores, sistemas externos y la primera política identificada.
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-bp-03-actores-sistemas.png" alt="Big Picture Event Storming de LoadMatch" width="900"><br>
+  <i>Nota. Big Picture Event Storming con actores y sistemas externos, elaborado en Miro.</i>
+</div>
+
+El equipo desarrolló una sesión de Design-Level Event Storming con una duración aproximada de dos horas, utilizando la herramienta Miro. La sesión partió de los cinco procesos identificados en el Big Picture Event Storming del Capítulo II —Autenticación y Perfil, Publicación, Matching, Flujo Operativo y Pagos— y avanzó por las diez etapas del método hasta llegar a la identificación de los bounded contexts.
+
+**Step 1 — Unstructured Exploration.** El equipo registró de forma libre todos los eventos de dominio que ocurren en la operación de LoadMatch, sin preocuparse por el orden ni por las relaciones entre ellos. El objetivo de esta etapa es maximizar la cobertura del dominio antes de imponer cualquier estructura.
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-step01-unstructured-exploration.png" alt="Step 1 Unstructured Exploration" width="800"><br>
+  <i>Nota. Exploración no estructurada de eventos de dominio, elaborada en Miro.</i>
+</div>
+
+**Step 2 — Chronology.** Los eventos se ordenaron en una línea de tiempo. Se emplearon dos carriles paralelos, uno para el recorrido de la Empresa y otro para el del Transportista, dado que ambos actores avanzan por caminos distintos que convergen en el momento de la asignación del viaje.
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-step02-chronology.png" alt="Step 2 Chronology" width="800"><br>
+  <i>Nota. Ordenamiento cronológico de los eventos de dominio en carriles por actor.</i>
+</div>
+
+**Step 3 — Pain Points.** Se marcaron los puntos donde el proceso presenta fricción, ambigüedad o riesgo. Entre los principales se identificaron: la posibilidad de que la empresa elija entre varios transportistas o quede asignada automáticamente al primero que acepte; el abandono del viaje por parte del transportista asignado; el reporte de incidencias durante el traslado; y la garantía de cumplimiento para la empresa cuando el pago se habilita al final del servicio.
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-step03-pain-points.png" alt="Step 3 Pain Points" width="800"><br>
+  <i>Nota. Identificación de pain points sobre la línea de tiempo del dominio. Los rombos magenta señalan los puntos de incertidumbre; su contenido se transcribe en la Tabla 4.1.</i>
+</div>
+
+**Tabla 4.1**
+
+*Pain points identificados durante el Design-Level Event Storming*
+
+| # | Etapa del flujo | Pain point | Estado |
+| :--- | :--- | :--- | :--- |
+| 1 | Matching | ¿Qué pasa si el transportista asignado no se presenta o abandona el viaje a mitad de camino? ¿Puede la empresa reasignarlo? | Fuera del alcance del MVP |
+| 2 | Matching | ¿Debe la empresa poder elegir entre varios transportistas interesados, o queda asignada automáticamente al primero que acepta? | Resuelto: asignación automática |
+| 3 | Trip Execution | ¿Cómo se reporta una incidencia durante el traslado —demora, avería, mercadería dañada— y quién la resuelve? | Fuera del alcance del MVP |
+| 4 | Payment | Si el pago se habilita al finalizar el servicio, ¿qué garantiza a la empresa que el transportista cumplirá, y al transportista que cobrará? | Fuera del alcance del MVP |
+
+**Step 4 — Pivotal Points.** Se delimitaron los momentos que cambian de manera irreversible el estado del negocio y que, por lo tanto, anticipan fronteras entre contextos: el registro validado del usuario, la publicación de la solicitud de carga, la aceptación del viaje, la entrega de la mercadería y la confirmación del pago.
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-step04-pivotal-points.png" alt="Step 4 Pivotal Points" width="800"><br>
+  <i>Nota. Pivotal points que delimitan las fronteras entre etapas del dominio.</i>
+</div>
+
+**Step 5 — Commands.** Se identificaron las acciones que disparan cada evento, junto con el actor responsable de ejecutarlas. Entre los comandos principales se encuentran Crear Usuario Empresa, Crear Usuario Transportista, Registrar Vehículo, Subir Documento, Crear Solicitud de Carga, Cancelar Solicitud de Carga, Consultar Fletes Cercanos, Aceptar Viaje, Actualizar Estado del Viaje, Marcar Viaje como Completado, Pagar con Tarjeta y Calificar Transportista.
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-step05-commands.png" alt="Step 5 Commands" width="800"><br>
+  <i>Nota. Comandos y actores que disparan cada evento de dominio.</i>
+</div>
+
+**Step 6 — Policies.** Se documentaron las reglas de reacción automática del sistema, expresadas con la estructura "cuando ocurre tal evento, entonces el sistema debe ejecutar tal acción". Las más relevantes son: cuando un documento es subido, validarlo automáticamente contra el padrón del MTC; cuando la documentación queda aprobada, habilitar el perfil del transportista; cuando un transportista no validado intenta aceptar un viaje, bloquear la operación; cuando un viaje queda asignado, retirar la solicitud del mercado; cuando la mercadería es entregada en destino, marcar el viaje como completado; y cuando el pago es procesado exitosamente, notificar al transportista.
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-step06-policies.png" alt="Step 6 Policies" width="800"><br>
+  <i>Nota. Políticas de negocio identificadas sobre los eventos de dominio.</i>
+</div>
+
+**Step 7 — Read Models.** Se identificó la información que cada actor necesita consultar para poder decidir y ejecutar sus comandos: el panel principal, el detalle del flete, el historial de viajes, el mapa con la ruta al destino, los detalles del envío, las pantallas de pago y la pantalla de calificación. Durante esta etapa el equipo detectó que diez elementos registrados inicialmente como eventos de dominio eran en realidad modelos de lectura: describían pantallas o consultas —"detalle de flete visualizado", "historial de viajes consultado"— y no hechos de negocio ocurridos en el pasado. Se reclasificaron al color correspondiente y se fusionaron con los modelos de lectura equivalentes cuando ya existían, evitando la duplicación del mismo concepto bajo dos categorías.
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-step07-read-models.png" alt="Step 7 Read Models" width="800"><br>
+  <i>Nota. Modelos de lectura requeridos por los actores del dominio.</i>
+</div>
+
+**Step 8 — External Systems.** Se identificaron los sistemas fuera del control de LoadMatch de los cuales depende la operación: el Padrón del MTC para validar placas, SOAT y licencias de conducir; Mapbox para geocodificación, rutas y cálculo de distancias; PayPal para procesar el cobro y la liquidación; el Servicio de Correo Electrónico para las notificaciones transaccionales; y el Object Storage para almacenar los documentos que sube el transportista.
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-step08-external-systems.png" alt="Step 8 External Systems" width="800"><br>
+  <i>Nota. Sistemas externos de los que depende la operación de LoadMatch.</i>
+</div>
+
+**Step 9 — Aggregates.** Los eventos y comandos se agruparon alrededor de las entidades que protegen sus invariantes de negocio. Se identificaron doce agregados: Usuario, Empresa, Transportista, Vehículo, Tipo de Vehículo, Documento, Tipo de Documento, Solicitud de Carga, Viaje, Pago, Clasificación y Mensaje de Contacto. Los agregados Tipo de Vehículo y Tipo de Documento se modelan como agregados de catálogo: se pueblan mediante datos semilla en la migración inicial y no participan de comandos ni eventos de dominio dentro del alcance del MVP, razón por la cual aparecen sin post-its asociados en el tablero. Se mantienen como agregados independientes —y no como Value Objects dentro de Vehículo o Documento— porque son compartidos por todas las unidades y documentos, que los referencian por identidad en lugar de contenerlos.
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-step09-aggregates.png" alt="Step 9 Aggregates" width="800"><br>
+  <i>Nota. Agregados identificados a partir del agrupamiento de eventos y comandos.</i>
+</div>
+
+**Step 10 — Bounded Contexts.** Finalmente, los agregados y sus eventos se agruparon en contextos delimitados, cada uno con su propio lenguaje ubicuo y su propia frontera de consistencia. Se identificaron diez bounded contexts:
+
+| BOUNDED CONTEXT | SUBDOMINIO | AGREGADOS | RESPONSABILIDAD |
+| :--- | :--- | :--- | :--- |
+| **IAM** | Genérico | Usuario | Credenciales, autenticación y ciclo de vida de la cuenta |
+| **Profiles** | Soporte | Empresa, Transportista | Perfiles de negocio, RUC, datos de contacto y reputación |
+| **Fleet** | Soporte | Vehiculo, TipoVehiculo | Registro de vehículos, placas y capacidades de carga |
+| **Document Validation** | Soporte | Documento, TipoDocumento | Carga y validación automática de licencias, SOAT y tarjetas |
+| **Freight Publishing** | Core | SolicitudDeCarga | Publicación, edición y cancelación de solicitudes de carga |
+| **Matching** | Core | *(sin agregado)* | Búsqueda por proximidad, filtrado y asignación de viajes |
+| **Trip Execution** | Core | Viaje | Ciclo de vida del viaje, estados y trazabilidad |
+| **Payment** | Soporte | Pago | Cobro a la empresa y liquidación al transportista |
+| **Rating** | Soporte | Clasificacion | Calificación post-viaje y cálculo de reputación |
+| **Contact** | Genérico | MensajeContacto | Formularios de contacto y leads de la Landing Page |
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-step10-bounded-contexts.png" alt="Step 10 Bounded Contexts" width="800"><br>
+  <i>Nota. Bounded contexts identificados al cierre del Design-Level Event Storming.</i>
+</div>
+
+<div align="center">
+  <img src="../assets/images/event-storming/es-bc-detalle.png" alt="Detalle de bounded contexts" width="800"><br>
+  <i>Nota. Vista en detalle de los bounded contexts, donde se aprecian los agregados, comandos, eventos, políticas y modelos de lectura de cada uno.</i>
+</div>
+
+Tres decisiones de modelado merecen ser explicadas:
+
+En primer lugar, **se separó identidad de perfil**. IAM administra únicamente las credenciales mediante el agregado Usuario, mientras que Profiles administra los datos de negocio de la Empresa y del Transportista. La razón es que ambos tienen ciclos de vida distintos: un usuario puede existir sin haber completado su perfil, y el perfil cambia sin necesidad de tocar las credenciales. Mantenerlos juntos acoplaría la autenticación con reglas de negocio que nada tienen que ver con ella.
+
+En segundo lugar, **Solicitud de Carga y Viaje son agregados separados en contextos distintos**. La solicitud vive publicada en el mercado hasta que un transportista la acepta; el viaje comienza en ese momento y tiene su propia máquina de estados. Son invariantes diferentes y ritmos de cambio diferentes, por lo que forzarlos dentro de un mismo agregado produciría una entidad sobrecargada.
+
+En tercer lugar, **Matching no posee agregado propio**. Es un contexto de consulta y asignación: no crea ni modifica entidades que le pertenezcan, sino que orquesta sobre Solicitud de Carga y Transportista. Se implementa mediante un Domain Service y modelos de lectura. Un bounded context puede existir legítimamente sin agregados cuando su responsabilidad es de coordinación y consulta.
+
+Finalmente, la sesión dejó identificados cuatro pain points que **quedan fuera del alcance del MVP** y se documentan como oportunidades de mejora: la reasignación de un viaje cuando el transportista abandona el servicio, el reporte de incidencias durante el traslado, la elección entre múltiples transportistas por parte de la empresa, y un esquema de garantía o retención de pago. Dejarlos registrados permite que el equipo priorice conscientemente y que estas necesidades puedan incorporarse en iteraciones posteriores.
+
 
 ### 4.6.2. Software Architecture Context Diagram
 
-El Diagrama de Contexto define el alcance del sistema LoadMatch, identificando a los usuarios principales (Shippers y Carriers) y su interacción con las plataformas externas necesarias para la validación de seguridad, geolocalización y pasarela de pagos.
+El Diagrama de Contexto define el alcance del sistema LoadMatch. Ubica a la plataforma en el centro, rodeada por los dos actores principales —la Empresa que necesita transportar mercadería y el Transportista que busca oportunidades de flete— y por los cinco sistemas externos de los cuales depende su operación.
+
+La validación documental se apoya en el **Padrón del MTC**, que permite verificar la vigencia de placas, SOAT y licencias de conducir sin intervención manual. **Mapbox** provee geocodificación, cálculo de rutas y distancias, necesarios tanto para publicar una carga como para encontrar fletes cercanos. **PayPal** procesa el cobro del servicio a la empresa y la liquidación al transportista. El **Object Storage** almacena los documentos que el transportista sube durante su habilitación. Finalmente, el **Servicio de Correo Electrónico** entrega las notificaciones transaccionales, razón por la cual aparece también como origen de comunicaciones hacia ambos actores.
 
 <div align="center">
-  <img src="../assets/images/Graphics/Diagrama-contexto-loadmatch.jpeg" alt="Diagram-context" width="600"><br>
-  <i>Nota. Diagrama de Contexto elaborado en structurizr aplicando el Modelo C4..</i>
+  <img src="../assets/images/c4/c4-l1-context.png" alt="Diagrama de Contexto C4" width="800"><br>
+  <i>Nota. Diagrama de Contexto (C4 Nivel 1) elaborado en Structurizr aplicando el Modelo C4.</i>
 </div>
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-El Diagrama de Contenedores expone la topología técnica de LoadMatch, separando la capa de presentación SPA (Angular), el punto de entrada estático (Landing Page), el núcleo transaccional REST (Spring Boot) y la persistencia de datos (PostgreSQL).
+El Diagrama de Contenedores expone la topología técnica de LoadMatch y cómo se distribuyen las responsabilidades entre sus unidades desplegables. LoadMatch se compone de cuatro contenedores.
+
+La **Landing Page** es un sitio estático construido con HTML5, CSS3 y JavaScript que funciona como punto de entrada público y mecanismo de captación de leads. La **Single Page Application**, desarrollada en Angular 18 con TypeScript, concentra toda la operación transaccional: dashboards, catálogos y tableros de seguimiento para empresas y transportistas. El **Backend REST API**, implementado en Java 17 con Spring Boot 3, expone la API versionada y concentra las reglas de negocio, los bounded contexts del dominio y la orquestación de las integraciones externas. La persistencia se resuelve mediante una base de datos **PostgreSQL 16 con la extensión PostGIS**, necesaria para ejecutar las consultas de proximidad que sustentan el matching.
+
+La comunicación entre la SPA y el Backend se realiza mediante JSON sobre HTTPS con autenticación por JWT, mientras que la Landing Page se limita a enviar formularios de contacto al mismo API. Todas las integraciones con sistemas externos se resuelven desde el Backend, de modo que ningún contenedor de presentación depende directamente de un tercero.
 
 <div align="center">
-  <img src="../assets/images/Graphics/Diagrama-contenedor-loadmatch.jpeg" alt="Diagram-context" width="600"><br>
-  <i>Nota. Diagrama de Contenedores elaborado en structurizr aplicando el Modelo C4.</i>
+  <img src="../assets/images/c4/c4-l2-containers.png" alt="Diagrama de Contenedores C4" width="800"><br>
+  <i>Nota. Diagrama de Contenedores (C4 Nivel 2) elaborado en Structurizr aplicando el Modelo C4.</i>
 </div>
+
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-El Diagrama de Componentes realiza un "zoom in" al contenedor Backend REST API, mapeando exactamente los Bounded Contexts definidos en los Epics (IAM, Freight, Matching, Tracking, Payments).
+De acuerdo con el Modelo C4, se elabora un Diagrama de Componentes por cada contenedor con lógica propia. A continuación se presentan los tres correspondientes al Backend REST API, a la Single Page Application y a la Landing Page. La base de datos no requiere diagrama de componentes por tratarse de un contenedor de persistencia.
+
+#### Backend REST API
+
+El Backend se descompone en trece componentes. Diez de ellos corresponden **uno a uno con los bounded contexts identificados en el Event Storming**, lo que permite rastrear cada componente hasta un agrupamiento del tablero de Miro. Los tres restantes son transversales: el componente de **Security & JWT**, que autentica cada petición y resuelve el rol para la autorización por endpoint; el **Domain Event Publisher**, que desacopla los bounded contexts publicando y enrutando eventos de dominio in-process; y el componente de **Notification**, que se suscribe a esos eventos y los traduce en notificaciones transaccionales.
+
+Los repositorios y las capas anticorrupción no se representan como componentes independientes, sino que residen dentro del paquete de infraestructura de cada bounded context. Por esa razón, cada flecha que va de un componente de dominio hacia un sistema externo representa su propia capa anticorrupción: es la traducción entre el modelo del tercero y el lenguaje ubicuo del contexto.
 
 <div align="center">
-  <img src="../assets/images/Graphics/Diagrama-componentes-loadmatch.jpeg" alt="Diagram-component" width="600"><br>
-  <i>Nota. Diagrama de Componentes del API elaborado en structurizr aplicando el Modelo C4.</i>
+  <img src="../assets/images/c4/c4-l3a-components-backend.png" alt="Diagrama de Componentes del Backend REST API" width="900"><br>
+  <i>Nota. Diagrama de Componentes del contenedor Backend REST API (C4 Nivel 3), elaborado en Structurizr aplicando el Modelo C4.</i>
 </div>
+
+#### Single Page Application
+
+La aplicación Angular replica la misma estructura del Backend: cada bounded context tiene su módulo de funcionalidad correspondiente, cargado bajo demanda mediante lazy loading según la ruta solicitada y el rol del usuario. Esta simetría facilita el mantenimiento, ya que un cambio en un contexto del dominio tiene un punto de impacto único y previsible en el frontend.
+
+El núcleo de la aplicación está compuesto por tres elementos: el **App Shell & Routing**, responsable del layout y la navegación; el **Auth Guard & JWT Interceptor**, que protege las rutas según el rol, adjunta el token a cada petición saliente y cierra la sesión ante una respuesta 401; y el **Shared Kernel**, que concentra el servicio HTTP base, los modelos y assemblers compartidos, los componentes de interfaz reutilizables y la internacionalización.
+
+<div align="center">
+  <img src="../assets/images/c4/c4-l3b-components-spa.png" alt="Diagrama de Componentes de la Single Page Application" width="900"><br>
+  <i>Nota. Diagrama de Componentes del contenedor Single Page Application (C4 Nivel 3), elaborado en Structurizr aplicando el Modelo C4.</i>
+</div>
+
+#### Landing Page
+
+La Landing Page se compone de seis elementos de propósito acotado: las secciones de contenido en HTML5 semántico, la navegación y el layout responsivo, los llamados a la acción que derivan al visitante hacia el registro en la SPA, el formulario de captación de leads que envía los datos al Backend, el módulo de SEO y Meta Tags descrito en la sección 4.2.3, y el selector de idioma que alterna el contenido entre español e inglés.
+
+<div align="center">
+  <img src="../assets/images/c4/c4-l3c-components-landing.png" alt="Diagrama de Componentes de la Landing Page" width="900"><br>
+  <i>Nota. Diagrama de Componentes del contenedor Landing Page (C4 Nivel 3), elaborado en Structurizr aplicando el Modelo C4.</i>
+</div>
+
 
 ## 4.7. Software Object-Oriented Design
 
+En esta sección se presenta el detalle de implementación de cada bounded context mediante diagramas de clases UML. Siguiendo los principios de Domain-Driven Design, cada diagrama identifica su Aggregate Root, las entidades internas que viven bajo esa raíz, los Value Objects que encapsulan conceptos sin identidad propia, las enumeraciones que representan los estados del dominio y las interfaces de repositorio que definen el contrato de persistencia.
+
+Los diagramas aplican de manera consistente las siguientes convenciones. Las referencias entre agregados se realizan **exclusivamente por identidad**, nunca mediante navegación de objetos: un Vehículo conoce el `TransportistaId` al que pertenece, pero no mantiene una referencia al objeto Transportista. Los identificadores son Value Objects tipados sobre UUID, lo que evita confundir un `VehiculoId` con un `TransportistaId` en tiempo de compilación. Cada agregado expone métodos de negocio expresivos en lugar de setters, de modo que las invariantes se protegen dentro del propio agregado. Finalmente, las entidades internas declaran constructores con visibilidad de paquete, garantizando que solo puedan crearse a través de su raíz.
+
+
 ### 4.7.1. Class Diagrams
 
-Este diagrama de clases UML modela las entidades extraídas del análisis de las Historias de Usuario (US) y Technical Stories (TS). 
+#### Bounded Context: IAM
+
+El contexto de identidad protege un único agregado, `Usuario`, que encapsula las credenciales y el ciclo de vida de la cuenta. El hash de la contraseña se modela como Value Object y el algoritmo de cifrado se delega en el puerto `PasswordHasher`, de modo que el dominio no conoce la implementación criptográfica.
 
 <div align="center">
-  <img src="../assets/images/Graphics/Diagrama-UML-loadmatch.jpeg" alt="Diagram-UML" width="600"><br>
-  <i>Nota. Diagrama de Clases UML modelando los Bounded Contexts principales en structurizr.</i>
+  <img src="../assets/images/class-diagrams/class-01-iam.png" alt="Diagrama de Clases del bounded context IAM" width="800"><br>
+  <i>Nota. Diagrama de Clases del bounded context IAM, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Profiles
+
+Este contexto administra dos agregados independientes, `Empresa` y `Transportista`, ambos vinculados a IAM únicamente por el `UsuarioId`. El Value Object `Ruc` incorpora la validación del dígito verificador mediante el algoritmo de módulo 11, y `Reputacion` encapsula el promedio de calificaciones junto con el total de evaluaciones recibidas.
+
+<div align="center">
+  <img src="../assets/images/class-diagrams/class-02-profiles.png" alt="Diagrama de Clases del bounded context Profiles" width="800"><br>
+  <i>Nota. Diagrama de Clases del bounded context Profiles, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Fleet
+
+El agregado `Vehiculo` mantiene los datos técnicos de la unidad y su estado de validación ante el MTC, mientras que `TipoVehiculo` actúa como catálogo que define las capacidades máximas admitidas. La consulta al padrón se realiza a través del puerto `PadronMtcService`, que devuelve un `ResultadoConsultaMtc` traducido al lenguaje del dominio.
+
+<div align="center">
+  <img src="../assets/images/class-diagrams/class-03-fleet.png" alt="Diagrama de Clases del bounded context Fleet" width="800"><br>
+  <i>Nota. Diagrama de Clases del bounded context Fleet, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Document Validation
+
+El agregado `Documento` controla el ciclo de aprobación de licencias, SOAT y tarjetas de propiedad. La validación es automática: el Domain Service `ServicioValidacionDocumental` consulta el padrón del MTC y determina el estado resultante. El archivo físico se almacena mediante el puerto `AlmacenamientoArchivosService`, que devuelve la URL firmada.
+
+<div align="center">
+  <img src="../assets/images/class-diagrams/class-04-document-validation.png" alt="Diagrama de Clases del bounded context Document Validation" width="800"><br>
+  <i>Nota. Diagrama de Clases del bounded context Document Validation, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Freight Publishing
+
+El agregado `SolicitudDeCarga` protege las invariantes de la publicación: valida el peso y las dimensiones, exige una fecha de recojo futura y controla las transiciones entre borrador, publicada, asignada y cancelada. El Value Object `Ruta` compone origen, destino y distancia calculada, apoyándose en el puerto `ServicioGeoespacial`.
+
+<div align="center">
+  <img src="../assets/images/class-diagrams/class-05-freight-publishing.png" alt="Diagrama de Clases del bounded context Freight Publishing" width="800"><br>
+  <i>Nota. Diagrama de Clases del bounded context Freight Publishing, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Matching
+
+Este contexto no posee Aggregate Root. Su responsabilidad es de coordinación y consulta, por lo que se implementa mediante el Domain Service `ServicioDeMatching`, la especificación `PoliticaHabilitacionTransportista` y los modelos de lectura `FleteDisponible` y `DetalleDeFlete`. Accede a los demás contextos exclusivamente a través de puertos de consulta, respetando la regla de referenciar por identidad.
+
+<div align="center">
+  <img src="../assets/images/class-diagrams/class-06-matching.png" alt="Diagrama de Clases del bounded context Matching" width="800"><br>
+  <i>Nota. Diagrama de Clases del bounded context Matching, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Trip Execution
+
+El agregado `Viaje` implementa una máquina de estados con siete posiciones, desde la asignación hasta la finalización. Cada transición se valida en el método privado `validarTransicion` y queda registrada como una entidad `HistorialEstadoViaje`, cuyo constructor es de visibilidad de paquete para garantizar que la trazabilidad solo pueda generarse desde la propia raíz del agregado.
+
+<div align="center">
+  <img src="../assets/images/class-diagrams/class-07-trip-execution.png" alt="Diagrama de Clases del bounded context Trip Execution" width="800"><br>
+  <i>Nota. Diagrama de Clases del bounded context Trip Execution, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Payment
+
+El agregado `Pago` distingue tres montos: el total cobrado a la empresa, la comisión de la plataforma y el importe liquidado al transportista. El `TokenPago` circula únicamente entre el agregado y el puerto `PasarelaDePagoService`, de modo que ningún dato de tarjeta se persiste ni se expone en el modelo de dominio.
+
+<div align="center">
+  <img src="../assets/images/class-diagrams/class-08-payment.png" alt="Diagrama de Clases del bounded context Payment" width="800"><br>
+  <i>Nota. Diagrama de Clases del bounded context Payment, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Rating
+
+El agregado `Clasificacion` registra quién califica y a quién, mediante los campos `evaluadorId`, `evaluadoId` y `tipoEvaluador`, lo que permite la calificación mutua entre empresa y transportista. El Value Object `Puntaje` valida el rango permitido en su propio constructor, y el Domain Service verifica que el viaje esté completado y que no exista una calificación previa del mismo evaluador.
+
+<div align="center">
+  <img src="../assets/images/class-diagrams/class-09-rating.png" alt="Diagrama de Clases del bounded context Rating" width="800"><br>
+  <i>Nota. Diagrama de Clases del bounded context Rating, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Contact
+
+El agregado `MensajeContacto` recibe los formularios provenientes de la Landing Page. Es el contexto más simple del modelo: registra el lead, clasifica al interesado según el segmento y controla si el mensaje ya fue atendido por el equipo comercial.
+
+<div align="center">
+  <img src="../assets/images/class-diagrams/class-10-contact.png" alt="Diagrama de Clases del bounded context Contact" width="800"><br>
+  <i>Nota. Diagrama de Clases del bounded context Contact, elaborado en PlantUML.</i>
 </div>
 
 ## 4.8. Database Design
 
-El diseño de la base de datos asegura la persistencia estructural de LoadMatch mediante un modelo relacional en PostgreSQL.
+El diseño de la base de datos traduce el modelo de dominio a un esquema relacional sobre PostgreSQL 16, manteniendo la separación por bounded contexts establecida en las secciones anteriores. La correspondencia no es únicamente conceptual: **cada bounded context recibe su propio schema de PostgreSQL** —`iam`, `profiles`, `fleet`, `documents`, `freight`, `trip`, `payment`, `rating` y `contact`—, de modo que la frontera lógica del Domain-Driven Design queda materializada físicamente en la base de datos y cada contexto resulta dueño exclusivo de sus tablas. El bounded context Matching no recibe schema, en coherencia con no poseer agregados propios.
+
+El mapeo del modelo de clases al esquema relacional sigue reglas consistentes:
+
+| Concepto del modelo de dominio | Representación en la base de datos |
+| :--- | :--- |
+| **Aggregate Root** | Tabla principal con llave primaria propia |
+| **Entidad interna** | Tabla hija con llave foránea hacia la raíz y borrado en cascada |
+| **Value Object** | Columnas embebidas con prefijo, nunca una tabla independiente |
+| **Referencia entre agregados** | Columna de llave foránea, sin navegación de objetos |
+| **Enumeración** | `VARCHAR` con restricción `CHECK`, nunca valores ordinales |
+| **Marca de tiempo** | `TIMESTAMPTZ`, para preservar la zona horaria |
+
+Las llaves primarias son de tipo **`UUID`**, en correspondencia con los Value Objects de identidad definidos en los diagramas de clases. Esta decisión responde a dos motivos. Permite generar el identificador antes de persistir el agregado, lo que simplifica la publicación de eventos de dominio dentro de la misma transacción. Y evita exponer en las URL el volumen de operaciones de la plataforma, ya que un identificador secuencial revelaría cuántas cargas o usuarios existen en el sistema.
+
+Los Value Objects se almacenan como columnas embebidas con un prefijo que identifica al objeto de origen. Así, el Value Object `Ruta` de una solicitud de carga se persiste como `origen_direccion`, `origen_distrito`, `origen_lat`, `origen_lng` y sus equivalentes de destino; el Value Object `Dinero` se descompone en `tarifa_monto` y `tarifa_moneda`. De esta manera se conserva la trazabilidad hacia el modelo de clases sin generar tablas adicionales para objetos que carecen de identidad propia.
+
+Las restricciones no se limitan a las llaves. El esquema incorpora **restricciones `CHECK` que protegen invariantes de negocio directamente en la base de datos**: el puntaje de una calificación debe situarse entre 1 y 5, el evaluador no puede coincidir con el evaluado, la suma de la comisión de plataforma y el monto de liquidación no puede superar el monto total cobrado, y el peso bruto de un vehículo no puede ser inferior a su carga útil. De este modo, una falla en la capa de aplicación no puede producir datos inconsistentes.
+
+El esquema completo se encuentra versionado en el repositorio del proyecto como `loadmatch-schema.sql` y fue ejecutado y verificado sobre una instancia de PostgreSQL 16, incluyendo pruebas que confirman que las restricciones rechazan efectivamente los datos inválidos.
 
 ### 4.8.1. Database Diagrams
 
-El siguiente Diagrama Entidad-Relación (ERD) documenta las tablas, columnas, tipos de datos, llaves primarias (PK) de tipo entero autoincremental y restricciones de llave foránea (FK) que garantizan la integridad referencial del sistema logístico. El modelo incluye una tabla `Usuario` como entidad padre para garantizar la unicidad de correo electrónico a nivel de plataforma, catálogos reutilizables (`TipoDocumento`, `TipoVehiculo`) con cardinalidad uno a muchos, y una relación opcional entre `Solicitud_viaje` y `Transportista` que refleja el flujo de marketplace abierto, donde una solicitud puede publicarse sin transportista asignado hasta que uno la acepte.
+A continuación se presenta el Diagrama Entidad-Relación de cada bounded context, especificando tablas, columnas, tipos de datos, llaves primarias y restricciones de llave foránea, unicidad y validación.
+
+El bounded context **Matching no cuenta con tablas propias**, dado que su responsabilidad es de consulta y asignación: opera mediante consultas de proximidad con PostGIS sobre las tablas de Freight Publishing y Profiles. Por esa razón se presentan nueve diagramas y no diez.
+
+Antes del detalle por contexto, la siguiente vista general presenta las trece tablas del modelo agrupadas por schema. Permite apreciar cómo la separación en bounded contexts se materializa en la base de datos y cómo las referencias entre contextos se resuelven siempre por llave foránea sobre el identificador, nunca por navegación de objetos.
 
 <div align="center">
-  <img src="../assets/images/Graphics/diagrama-entidad-relacion.png" alt="Diagrama Entidad-Relacion LoadMatch" width="700"><br>
-  <i>Nota. Diagrama Entidad-Relación (ERD) de LoadMatch, elaborado en [nombre de tu herramienta].</i>
+  <img src="../assets/images/database/db-00-vista-general.png" alt="Vista general del modelo relacional de LoadMatch" width="850"><br>
+  <i>Nota. Vista general del modelo relacional agrupado por bounded context, elaborada en PlantUML.</i>
+</div>
+
+#### Bounded Context: IAM
+
+El schema `iam` contiene una única tabla. La columna `rol` permite resolver la autorización del token JWT sin necesidad de consultar el schema `profiles`, evitando dos consultas adicionales en cada inicio de sesión. La relación con los perfiles es de uno a cero-o-uno: un usuario puede existir sin haber completado aún su perfil de empresa o de transportista.
+
+<div align="center">
+  <img src="../assets/images/database/db-01-iam.png" alt="Diagrama Entidad-Relación del bounded context IAM" width="800"><br>
+  <i>Nota. Diagrama Entidad-Relación del bounded context IAM, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Profiles
+
+Las tablas `empresas` y `transportistas` se vinculan a `iam.usuarios` mediante una llave foránea con restricción de unicidad, lo que garantiza la correspondencia uno a uno entre cuenta y perfil. Los Value Objects `Direccion`, `LicenciaConducir` y `Reputacion` aparecen como grupos de columnas embebidas. La columna `reputacion_total_evaluaciones` permite recalcular el promedio de forma incremental, sin recorrer la tabla de calificaciones en cada nueva evaluación.
+
+<div align="center">
+  <img src="../assets/images/database/db-02-profiles.png" alt="Diagrama Entidad-Relación del bounded context Profiles" width="800"><br>
+  <i>Nota. Diagrama Entidad-Relación del bounded context Profiles, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Fleet
+
+El catálogo `tipos_vehiculo` define las capacidades máximas admitidas y se carga como datos semilla en la migración inicial. La tabla `vehiculos` registra las dimensiones completas de la unidad —largo, ancho y alto—, necesarias para el filtro de compatibilidad descrito en la sección 4.2.4. El estado de validación ante el MTC se modela como enumeración de tres valores y no como booleano, de modo que sea posible distinguir una unidad pendiente de validación de una efectivamente rechazada.
+
+<div align="center">
+  <img src="../assets/images/database/db-03-fleet.png" alt="Diagrama Entidad-Relación del bounded context Fleet" width="800"><br>
+  <i>Nota. Diagrama Entidad-Relación del bounded context Fleet, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Document Validation
+
+La tabla `documentos` incorpora un **índice único parcial** que permite un solo documento aprobado por tipo y transportista, pero deja abierta la posibilidad de volver a presentarlo tras un rechazo o un vencimiento. Una restricción `CHECK` exige que todo documento rechazado registre su motivo, dando soporte al evento de notificación identificado en el Event Storming.
+
+<div align="center">
+  <img src="../assets/images/database/db-04-document-validation.png" alt="Diagrama Entidad-Relación del bounded context Document Validation" width="800"><br>
+  <i>Nota. Diagrama Entidad-Relación del bounded context Document Validation, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Freight Publishing
+
+La tabla `solicitudes_carga` concentra los Value Objects `Ruta`, `Dimensiones` y `Dinero` como columnas embebidas. Las columnas `tarifa_monto` y `tipo_mercaderia` sustentan respectivamente el filtro de tarifa mínima y el dato mostrado en las tarjetas de resultado, ambos descritos en la sección 4.2.4. Un índice espacial GIST sobre la geografía del punto de origen, provisto por la extensión PostGIS y restringido a las solicitudes publicadas, soporta la búsqueda por proximidad que ejecuta el contexto Matching mediante `ST_DWithin`.
+
+<div align="center">
+  <img src="../assets/images/database/db-05-freight-publishing.png" alt="Diagrama Entidad-Relación del bounded context Freight Publishing" width="800"><br>
+  <i>Nota. Diagrama Entidad-Relación del bounded context Freight Publishing, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Trip Execution
+
+La tabla `viajes` mantiene una restricción de unicidad sobre `solicitud_carga_id`, garantizando que una solicitud genere a lo sumo un viaje. La entidad interna `historial_estado_viaje` registra cada transición con su estado anterior y su estado nuevo, y se elimina en cascada junto con el viaje, lo que refleja que su ciclo de vida depende por completo de la raíz del agregado.
+
+<div align="center">
+  <img src="../assets/images/database/db-06-trip-execution.png" alt="Diagrama Entidad-Relación del bounded context Trip Execution" width="800"><br>
+  <i>Nota. Diagrama Entidad-Relación del bounded context Trip Execution, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Payment
+
+La tabla `pagos` distingue tres montos: el total cobrado a la empresa, la comisión retenida por la plataforma y el importe liquidado al transportista. Una restricción `CHECK` impide que la suma de la comisión y la liquidación supere el monto total, y otra exige que todo pago marcado como completado registre su referencia de pasarela y su fecha de procesamiento. Ningún dato de tarjeta se persiste: hacia la pasarela solo circulan tokens.
+
+<div align="center">
+  <img src="../assets/images/database/db-07-payment.png" alt="Diagrama Entidad-Relación del bounded context Payment" width="800"><br>
+  <i>Nota. Diagrama Entidad-Relación del bounded context Payment, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Rating
+
+La tabla `clasificaciones` incorpora las columnas `evaluador_id`, `evaluado_id` y `tipo_evaluador`, que permiten la calificación mutua entre empresa y transportista e identifican sin ambigüedad quién califica a quién. Una restricción de unicidad sobre la combinación de viaje y evaluador impide que un mismo participante califique dos veces el mismo servicio, y una restricción `CHECK` impide la autocalificación.
+
+<div align="center">
+  <img src="../assets/images/database/db-08-rating.png" alt="Diagrama Entidad-Relación del bounded context Rating" width="800"><br>
+  <i>Nota. Diagrama Entidad-Relación del bounded context Rating, elaborado en PlantUML.</i>
+</div>
+
+#### Bounded Context: Contact
+
+La tabla `mensajes_contacto` no mantiene relaciones con el resto del modelo, dado que el lead llega desde la Landing Page antes de que exista una cuenta en la plataforma. Un índice parcial sobre la fecha de envío, restringido a los mensajes no atendidos, permite listar eficientemente la bandeja pendiente del equipo comercial.
+
+<div align="center">
+  <img src="../assets/images/database/db-09-contact.png" alt="Diagrama Entidad-Relación del bounded context Contact" width="800"><br>
+  <i>Nota. Diagrama Entidad-Relación del bounded context Contact, elaborado en PlantUML.</i>
 </div>
