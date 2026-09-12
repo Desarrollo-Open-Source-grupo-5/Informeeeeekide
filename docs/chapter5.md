@@ -3,7 +3,7 @@
 
 ## 5.1. Software Configuration Management
 
-La Gestión de Configuración de Software (SCM) en el proyecto LoadMatch se establece bajo estándares de integración continua e infraestructura inmutable. Durante esta fase inicial, el ecosistema técnico se enfoca en el desarrollo de la presencia digital estática (Landing Page), sentando una arquitectura limpia en el cliente (Client-Side) preparada para escalar hacia integraciones 3D y servicios backend en sprints posteriores.
+La Gestión de Configuración de Software (SCM) en el proyecto LoadMatch establece las herramientas, convenciones y prácticas utilizadas para organizar el desarrollo colaborativo de los productos de software. Durante esta fase inicial, el trabajo se enfoca en el desarrollo de la presencia digital estática mediante el Landing Page, utilizando una estructura basada en HTML5, CSS3 y JavaScript, preparada para evolucionar e integrarse con los servicios de la plataforma en sprints posteriores.
 
 ### 5.1.1. Software Development Environment Configuration
 
@@ -21,41 +21,160 @@ Para mantener la consistencia en el entorno de desarrollo y evitar discrepancias
 
 ### 5.1.2. Source Code Management
 
-El código fuente del Landing Page se gestiona de manera centralizada en un repositorio dedicado, asegurando el desacoplamiento estructural de los futuros microservicios de la plataforma LoadMatch.
+La gestión del código fuente de LoadMatch se realiza mediante **Git** como sistema de control de versiones distribuido y **GitHub** como plataforma de almacenamiento, colaboración y revisión del código. Los productos de software se mantienen en repositorios independientes dentro de la organización `Desarrollo-Open-Source-grupo-5`, permitiendo separar el Landing Page, la Frontend Web Application, los Web Services y la documentación del proyecto.
 
-* **Repositorio Oficial (Landing Page):** `LIONKKKKKKKKKKKKKKKKKKKK DEPLOYADO LANDINGGGGG`
+Los repositorios utilizados por el equipo son los siguientes:
 
-**Estrategia de Ramificación (GitFlow):**
-El equipo implementa un flujo estricto para proteger la estabilidad de la página de aterrizaje:
+| Repositorio | Producto |
+| --- | --- |
+| https://github.com/Desarrollo-Open-Source-grupo-5/Loadmatch-landing-page | Landing Page |
+| https://github.com/Desarrollo-Open-Source-grupo-5/Loadmatch-frontend-application | Frontend Web Application |
+| https://github.com/Desarrollo-Open-Source-grupo-5/Loadmatch-backend-application | Web Services (RESTful API) |
+| https://github.com/Desarrollo-Open-Source-grupo-5/Loadmatch-report | Informe y documentación del proyecto |
 
-* `main`: Entorno de producción. Contiene código HTML/CSS/JS minificado y optimizado. Las fusiones requieren validación y aprobación de Pull Requests.
-* `develop`: Rama principal de integración. Agrupa las secciones visuales maquetadas durante el Sprint antes de su paso a producción.
-* `feature/*`: Ramas efímeras creadas desde `develop` para desarrollar componentes específicos (ej. `feature/US12-hero-section`, `feature/US14-contact-form`).
+#### GitFlow Workflow
+
+El equipo utiliza **GitFlow** como estrategia de ramificación para organizar el desarrollo colaborativo. Las funcionalidades son desarrolladas de manera aislada y posteriormente integradas mediante Pull Requests, permitiendo revisar los cambios antes de incorporarlos a las ramas compartidas.
+
+La estructura de ramas definida es la siguiente:
+
+* `main`: contiene las versiones estables del producto que se encuentran preparadas para entrega o despliegue.
+* `develop`: rama principal de integración. Recibe las funcionalidades completadas y revisadas antes de preparar una nueva versión estable.
+* `feature/*`: ramas utilizadas para desarrollar funcionalidades o User Stories específicas. Se crean a partir de `develop` y, una vez completadas, se integran nuevamente mediante Pull Request.
+* `release/*`: ramas utilizadas para preparar una versión candidata a publicación. Permiten realizar ajustes finales antes de integrar la versión en `main`.
+* `hotfix/*`: ramas utilizadas para corregir errores críticos detectados en una versión que ya se encuentra publicada. Se crean a partir de `main` y posteriormente sus cambios se integran tanto en `main` como en `develop`.
+
+#### Convención para Feature Branches
+
+Las ramas de funcionalidad utilizan el prefijo `feature/` seguido del identificador de la User Story o de una descripción breve de la funcionalidad en inglés.
+
+Formato:
+
+`feature/<user-story>-<short-description>`
+
+Ejemplos:
+
+* `feature/US12-hero`
+* `feature/US13-fleet`
+* `feature/US14-contact`
+* `feature/design-tokens`
+
+#### Convención para Release Branches
+
+Las ramas de preparación de versiones utilizan el prefijo `release/` seguido del número de versión que se desea publicar.
+
+Formato:
+
+`release/<major>.<minor>.<patch>`
+
+Ejemplos:
+
+* `release/1.0.0`
+* `release/1.1.0`
+
+Una vez validada la versión, la rama de release se integra en `main` y sus cambios se sincronizan posteriormente con `develop`.
+
+#### Convención para Hotfix Branches
+
+Las correcciones urgentes sobre versiones publicadas utilizan el prefijo `hotfix/` seguido del número de versión corregida.
+
+Formato:
+
+`hotfix/<major>.<minor>.<patch>`
+
+Ejemplos:
+
+* `hotfix/1.0.1`
+* `hotfix/1.1.1`
+
+Las ramas `hotfix/*` se crean desde `main` y, después de validar la corrección, se integran nuevamente en `main` y `develop`.
+
+#### Semantic Versioning
+
+Para identificar las versiones publicadas de los productos de LoadMatch se utiliza **Semantic Versioning 2.0.0 (SemVer)** mediante el formato:
+
+`MAJOR.MINOR.PATCH`
+
+Donde:
+
+* **MAJOR:** se incrementa cuando se introducen cambios incompatibles con versiones anteriores.
+* **MINOR:** se incrementa cuando se incorporan nuevas funcionalidades manteniendo compatibilidad con la versión anterior.
+* **PATCH:** se incrementa cuando se realizan correcciones compatibles con la versión existente.
+
+Por ejemplo:
+
+* `v1.0.0`: primera versión estable del producto.
+* `v1.1.0`: incorporación de nuevas funcionalidades compatibles.
+* `v1.1.1`: corrección de errores sobre la versión `v1.1.0`.
+
+#### Conventional Commits
+
+Los commits realizados por el equipo siguen la especificación **Conventional Commits**, utilizando mensajes breves y descriptivos en inglés. Entre los tipos utilizados se encuentran `feat`, `fix`, `style`, `refactor`, `docs` y `chore`.
+
+Ejemplos:
+
+* `feat(pricing): add commission-based pricing section`
+* `fix(contact): validate email input`
+* `style(responsive): improve mobile layout`
+* `docs(chapter5): update sprint evidence`
+* `chore(css): remove unused placeholder`
+
+Las funcionalidades desarrolladas en ramas `feature/*` son integradas en `develop` mediante **Pull Requests revisados por otros miembros del equipo**, conservando los commits individuales como evidencia del trabajo colaborativo.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+Con el propósito de mantener consistencia, legibilidad y facilidad de mantenimiento en el código fuente de LoadMatch, el equipo adopta convenciones comunes para la escritura de HTML, CSS y JavaScript.
+
+Como regla general, **todos los nombres utilizados en el código se escriben en inglés**, incluyendo nombres de clases CSS, identificadores, variables, funciones, archivos y componentes. Esta convención permite mantener una nomenclatura uniforme entre los diferentes productos de software y facilita la colaboración entre los integrantes del equipo.
+
+Ejemplos:
+
+- `contact-form`
+- `fleet-card`
+- `submitButton`
+- `loadVehicles()`
+- `pricing-section`
+
 **Convenciones de Estructura y Estilos (HTML5 / CSS3):**
 
-* **Metodología BEM (Block, Element, Modifier):** Se aplica estrictamente en CSS para evitar la colisión de selectores y mantener una especificidad baja. Ejemplo: `.contact-form` (Bloque), `.contact-form__input` (Elemento), `.contact-form__button--active` (Modificador).
-* **Variables CSS (Custom Properties):** Centralización de la paleta de colores corporativa y tipografías de LoadMatch en el seudoclase `:root` para asegurar consistencia visual y facilitar la futura implementación de temas (Dark Mode).
-* **HTML Semántico:** Prohibición del sobre-anidamiento de etiquetas `<div>`. Uso obligatorio de etiquetas semánticas (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`) para mejorar el posicionamiento en buscadores (SEO).
+* **HTML Semántico:** Se prioriza el uso de etiquetas semánticas como `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` y `<footer>`, evitando el sobreuso de elementos `<div>` cuando existe una alternativa semántica adecuada.
+* **Nombres descriptivos en inglés:** Los nombres de clases e identificadores deben describir claramente la responsabilidad del elemento y utilizar terminología en inglés.
+* **Metodología BEM (Block, Element, Modifier):** Se utiliza para mantener una estructura predecible en los selectores CSS y reducir colisiones entre estilos. Por ejemplo: `.contact-form`, `.contact-form__input` y `.contact-form__button--active`.
+* **Variables CSS (Custom Properties):** Los tokens visuales de LoadMatch, como colores, tipografías y espaciados, se centralizan mediante variables definidas en la pseudoclase `:root`.
+* **Indentación y formato:** El código debe conservar una indentación consistente y una estructura legible, evitando reglas o declaraciones innecesariamente complejas.
+* **Preferencia por clases:** Para la aplicación de estilos reutilizables se prioriza el uso de clases sobre identificadores (`id`).
+
+Para estas convenciones, el equipo toma como referencia **HTML Style Guide and Coding Conventions** y **Google HTML/CSS Style Guide**.
 
 **Convenciones de Lógica (Vanilla JavaScript):**
 
-* **Aislamiento de Scope:** Prohibido el uso de variables globales. Se exige el uso de `const` y `let` (ES6+) dentro de funciones de inicialización o módulos (IIFE) para evitar contaminación del entorno global.
-* **Manipulación de Eventos:** Uso exclusivo de `addEventListener` para separar completamente la lógica de comportamiento (JS) de la estructura (HTML).
+* **Nomenclatura en inglés:** Las variables, constantes y funciones deben utilizar nombres descriptivos en inglés.
+* **Declaración de variables:** Se utiliza `const` por defecto y `let` cuando sea necesario reasignar valores, evitando el uso de `var`.
+* **Manipulación de eventos:** Los eventos se registran mediante `addEventListener`, manteniendo separada la lógica JavaScript de la estructura HTML.
+* **Alcance de variables:** Se evita crear variables globales innecesarias, manteniendo la lógica encapsulada en funciones o módulos.
+* **Funciones descriptivas:** Los nombres de funciones deben representar claramente la acción que realizan, por ejemplo `validateContactForm()` o `toggleFaqItem()`.
 
 **Convenciones de Commits (Conventional Commits):**
 
-* `feat:` Nueva sección o componente UI (ej. `feat: add fleet catalog section`).
-* `style:` Cambios en CSS que no afectan la lógica (ej. `style: update hero background layout`).
-* `fix:` Corrección de errores visuales o de JavaScript.
+Los mensajes de commit siguen la especificación Conventional Commits y se redactan en inglés. Entre los tipos utilizados se encuentran:
+
+* `feat:` Nueva funcionalidad o componente. Ejemplo: `feat(pricing): add commission-based pricing section`.
+* `fix:` Corrección de un error existente.
+* `style:` Cambios de formato o estilos que no modifican la lógica de negocio.
+* `chore:` Tareas de mantenimiento o configuración del proyecto.
+* `refactor:` Reestructuración del código sin alterar su comportamiento observable.
+
+**Referencias adoptadas:**
+
+- HTML Style Guide and Coding Conventions: https://www.w3schools.com/html/html5_syntax.asp
+- Google HTML/CSS Style Guide: https://google.github.io/styleguide/htmlcssguide.html
+- Conventional Commits: https://www.conventionalcommits.org/
 
 ### 5.1.4. Software Deployment Configuration
 
 La canalización de despliegue del Landing Page de LoadMatch aprovecha la naturaleza estática de los artefactos (archivos HTML, CSS y JS) utilizando plataformas de alojamiento sin servidor (Serverless Hosting) altamente eficientes.
 
-1. **Plataforma de Despliegue:** GitHub Pages / Vercel.
+1. **Plataforma de Despliegue:** GitHub Pages.
 2. **Pipeline de Publicación:** Al integrar código en la rama `main` de GitHub, la plataforma detecta los archivos estáticos y distribuye los artefactos a través de su Red de Entrega de Contenido (CDN) global.
 3. **Optimización:** Previo al despliegue en la rama principal, se asegura la minificación de los archivos `.css` y `.js`, y la compresión de los assets visuales (imágenes en formato WebP o SVG) para garantizar tiempos de carga ultrarrápidos (Time to Interactive).
 
@@ -65,100 +184,91 @@ La canalización de despliegue del Landing Page de LoadMatch aprovecha la natura
 
 ### 5.2.1. Sprint 1
 
-#### 5.2.1.1. Sprint Planning 1
-
-#### 5.2.1.2. Aspect Leaders and Collaborators
-
-#### 5.2.1.3. Sprint Backlog 1
-
-#### 5.2.1.4. Development Evidence for Sprint Review
-
-#### 5.2.1.5. Execution Evidence for Sprint Review
-
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-
-#### 5.2.1.8. Team Collaboration Insights during Sprint
-
-
-
----
-
-## 5.2. Landing Page, Services & Applications Implementation
-
-### 5.2.1. Sprint 1
-
-Durante esta primera iteración, la ejecución técnica se aisló estrictamente en la validación temprana del mercado mediante el desarrollo de un Landing Page estático. Se empleó una arquitectura nativa basada en HTML5, CSS3 y Vanilla JavaScript, estableciendo un Document Object Model (DOM) limpio, preparado para soportar futuras inyecciones de renderizado 3D dinámico.
+Durante esta primera iteración, el equipo se enfoca en el desarrollo de la primera versión del Landing Page de LoadMatch. Para su implementación se utiliza una estructura basada en HTML5, CSS3 y Vanilla JavaScript, manteniendo una organización clara del Document Object Model (DOM), estilos responsivos y componentes interactivos orientados a comunicar la propuesta de valor de la plataforma.
 
 #### 5.2.1.1. Sprint Planning 1
 
 | Sprint # | Sprint 1 |
 | --- | --- |
-| **Date** | 01/09/2026 |
+| **Sprint Planning Background** |  |
+| **Date** | 2026-09-01 |
 | **Time** | 08:30 PM |
 | **Location** | Microsoft Teams |
 | **Prepared By** | Christoper Rivas |
-| **Attendees** | Equipo de Desarrollo LoadMatch |
-| **Sprint 1 Review Summary** | El equipo completó la maquetación nativa del Landing Page de LoadMatch. Se estructuró el código separando semánticamente las secciones de Propuesta de Valor, Catálogo de Flota y Contacto. Se aplicaron estilos responsivos mediante CSS Flexbox y Grid, dotando de interactividad al DOM con Vanilla JavaScript para validación de formularios y animaciones de scroll suave. |
-| **Sprint 1 Retrospective Summary** | La implementación de la metodología BEM en CSS previno efectivamente las colisiones de estilos entre desarrolladores. Como oportunidad de mejora, se acordó optimizar aún más el peso de los assets visuales desde la exportación en Figma para maximizar la puntuación en Google Lighthouse en los próximos despliegues. |
-| **Sprint 1 Goal** | Desarrollar y desplegar la versión inicial del Landing Page utilizando un stack web estático. El objetivo central es comunicar claramente el modelo de negocio, captar leads tempranos de empresas y transportistas, y dejar la base estructural del código preparada para futuras iteraciones de interactividad 3D. |
-| **Sprint 1 Velocity** | 7 Story Points |
-| **Sum of Story Points** | 7 Story Points |
+| **Attendees (to planning meeting)** | Equipo de Desarrollo LoadMatch |
+| **Sprint 0 Review Summary** | N/A — Es el primer Sprint del proyecto. |
+| **Sprint 0 Retrospective Summary** | N/A — Es el primer Sprint del proyecto. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 1 Goal** | Desarrollar y desplegar la versión inicial del Landing Page de LoadMatch utilizando HTML5, CSS3 y Vanilla JavaScript, con el propósito de comunicar claramente la propuesta de valor y captar usuarios potenciales de empresas y transportistas. El objetivo se considerará cumplido cuando las User Stories US12, US13 y US14 estén implementadas y el Landing Page se encuentre desplegado y accesible públicamente. |
+| **Sprint 1 Velocity** | 7 |
+| **Sum of Story Points** | 7 |
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Leadership-and-Collaboration Matrix (LACX)
 
-La distribución de responsabilidades se enfocó en la separación de dominios del desarrollo web estático (Estructura, Presentación y Comportamiento).
+La distribución de responsabilidades del Sprint 1 considera los principales aspectos técnicos involucrados en el desarrollo del Landing Page. En la matriz, `L` representa al responsable principal (Leader) del aspecto y `C` a los integrantes que participan como colaboradores (Collaborators).
 
-| Team Member | GitHub Username | HTML5 (Estructura & SEO) | CSS3 (Estilos & Responsividad) | Vanilla JS (Interactividad) |
+| Team Member | GitHub Username | HTML5 (Structure & SEO) | CSS3 (Styles & Responsiveness) | Vanilla JS (Interactivity) |
 | --- | --- | --- | --- | --- |
-| Christoper Rivas | ChristoperRivas | Líder | Colaborador | Colaborador |
-| Integrante 2 | DevLoadMatch2 | Colaborador | Líder | Colaborador |
-| Integrante 3 | DevLoadMatch3 | Colaborador | Colaborador | Líder |
+| Rivas Castillo, Christoper Steven | [usuario real] | L/C | L/C | L/C |
+| Benigno Montero, Harold Fauskorp | Harold-11 | L/C | L/C | L/C |
+| Simon Calderon, Ismael Sebastian | [usuario real] | L/C | L/C | L/C |
 
 #### 5.2.1.3. Sprint Backlog 1
 
-Este Sprint cubre de forma exclusiva el Epic 06 (Gestión del Landing Page).
+El Sprint 1 se enfoca en la implementación inicial del Landing Page de LoadMatch y comprende las User Stories correspondientes a la visualización de la propuesta de valor, la consulta de tipos de vehículos y el formulario de contacto. Las tareas técnicas asociadas fueron organizadas y estimadas en Jira para facilitar el seguimiento del trabajo durante la iteración.
+
+<p align="center">
+  <img src="../assets/Chapter5/Sprint1/sprint1-board.png" alt="Sprint Board 1 de LoadMatch" width="850"><br>
+  <i>Nota. Sprint Board correspondiente al Sprint 1 del proyecto LoadMatch.</i>
+</p>
+
+**Sprint Board:** https://upc-team-m57tll9j.atlassian.net/jira/software/projects/US/boards/2?sprintStarted=true&filter=&groupBy=none
+
+Este Sprint cubre las siguientes User Stories y tareas:
 
 | User Story Id | User Story Title | Task Id | Task Title | Description | Estimation | Assigned To | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **US12** | Visualización de propuesta de valor | T01 | Maquetación Semántica del Hero | Estructuración HTML5 del Hero Section y la barra de navegación, asegurando jerarquía de etiquetas y accesibilidad. | 3h | Christoper Rivas | Done |
-| **US13** | Consulta de tipos de vehículos | T02 | Catálogo CSS Flexbox/Grid | Diseño responsivo del catálogo de vehículos, implementando Media Queries para la adaptación entre dispositivos móviles y de escritorio. | 2h | Integrante 2 | Done |
-| **US14** | Formulario de contacto | T03 | Validación DOM Vanilla JS | Captura de eventos del formulario (`submit`, `input`) mediante JavaScript nativo para validar campos requeridos y formato de correo. | 2h | Integrante 3 | Done |
+| **US12** | Visualización de propuesta de valor | T01 | Maquetación Semántica del Hero | Estructuración HTML5 del Hero Section y la barra de navegación, asegurando jerarquía de etiquetas y accesibilidad. | 8h | Harold Benigno Montero | To-do |
+| **US13** | Consulta de tipos de vehículos | T02 | Catálogo CSS Flexbox/Grid | Diseño responsivo del catálogo de vehículos, implementando Media Queries para la adaptación entre dispositivos móviles y de escritorio. | 6h | Harold Benigno Montero | To-do |
+| **US14** | Formulario de contacto | T03 | Validación DOM Vanilla JS | Captura de eventos del formulario (`submit`, `input`) mediante JavaScript nativo para validar campos requeridos y formato de correo. | 6h | Harold Benigno Montero | To-do |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-La gestión del código fuente se centralizó en el repositorio estático, utilizando ramas aisladas para cada sección visual de la página.
+El desarrollo del Sprint 1 se gestiona mediante ramas independientes creadas a partir de `develop`. Cada cambio implementado será registrado mediante commits individuales y posteriormente integrado mediante Pull Requests hacia la rama de integración.
 
-| Repository | Branch | Commit Id | Commit Message | Commited on |
-| --- | --- | --- | --- | --- |
-| loadmatch-landing | main | a1b2c3d | chore: init static project structure html, css and js folders | 02/09/2026 |
-| loadmatch-landing | feature/US12-hero | e4f5g6h | feat: add semantic HTML5 structure for hero and value proposition | 03/09/2026 |
-| loadmatch-landing | feature/US13-fleet | i7j8k9l | style: implement responsive CSS Grid and BEM classes for fleet catalog | 04/09/2026 |
-| loadmatch-landing | feature/US14-contact | m1n2o3p | feat: add vanilla javascript event listeners for form real-time validation | 05/09/2026 |
-| loadmatch-landing | develop | q4r5s6t | chore: merge all UI sections and normalize css global root variables | 06/09/2026 |
-| loadmatch-landing | main | u7v8w9x | refactor: optimize webp images and link final javascript modules | 07/09/2026 |
+La siguiente tabla registra la evidencia de desarrollo correspondiente a las User Stories incluidas en el Sprint. Los datos pendientes serán completados conforme los cambios sean implementados y publicados en el repositorio.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+| --- | --- | --- | --- | --- | --- |
+| Desarrollo-Open-Source-grupo-5/Loadmatch-landing-page | feature/US12-hero | (pendiente) | (pendiente) | (pendiente) | (pendiente) |
+| Desarrollo-Open-Source-grupo-5/Loadmatch-landing-page | feature/US13-fleet | (pendiente) | (pendiente) | (pendiente) | (pendiente) |
+| Desarrollo-Open-Source-grupo-5/Loadmatch-landing-page | feature/US14-contact | (pendiente) | (pendiente) | (pendiente) | (pendiente) |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-Durante este Sprint, el equipo materializó con éxito la interfaz visual del Landing Page de LoadMatch. Se garantizó que la estructura del DOM se adaptara fluidamente a dispositivos móviles, tablets y monitores mediante *Media Queries*. El archivo `style.css` centralizó el diseño utilizando unidades relativas (`rem`, `vh`) para garantizar fluidez en el escalado, mientras que el script `main.js` orquestó el comportamiento de la barra de navegación interactiva y la evaluación de los campos de contacto.
+Esta sección presentará la evidencia de ejecución correspondiente a las funcionalidades implementadas durante el Sprint 1. Una vez completadas las User Stories planificadas, se incluirán capturas de las principales vistas funcionales del Landing Page de LoadMatch, mostrando su comportamiento en diferentes tamaños de pantalla y las funcionalidades interactivas desarrolladas.
+
+Las evidencias visuales serán incorporadas una vez que la implementación correspondiente al Sprint se encuentre integrada y disponible para revisión.
+
+**Screenshots de las vistas implementadas:** (pendiente)
+
+**Video de navegación y ejecución del producto:** (pendiente)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-En alineación con la estrategia técnica definida para este Sprint, **no se integraron bases de datos, APIs RESTful ni servicios Backend**. Toda la interacción de la lógica de contacto (US14) y el manejo de estados de la UI se ejecutó del lado del cliente (*Client-Side Validation*) utilizando el API nativo del navegador. La validación de los datos de contacto previene el envío de *payloads* mal formados y almacena temporalmente los *leads* en el `localStorage` del navegador para fines de demostración en la revisión del Sprint. La integración con los servicios en la nube queda programada para las siguientes iteraciones.
+Durante el Sprint 1 no se contempla la implementación de Web Services, bases de datos ni APIs RESTful, debido a que esta primera iteración se encuentra enfocada en el desarrollo y despliegue inicial del Landing Page de LoadMatch.
+
+Por este motivo, no se presentan endpoints ni documentación de servicios para este Sprint. La implementación de los Web Services será abordada en iteraciones posteriores del proyecto.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-El artefacto resultante de este sprint es un sitio estático puro. Se utilizó **GitHub Pages** como infraestructura de alojamiento principal, lo que permite un despliegue sin servidor (Serverless Hosting) de alta velocidad.
+El Landing Page de LoadMatch será desplegado mediante **GitHub Pages** una vez completada e integrada la implementación correspondiente al Sprint 1.
 
-**Actividades Realizadas:**
+**Enlace del Repositorio:** https://github.com/Desarrollo-Open-Source-grupo-5/Loadmatch-landing-page
 
-* **Configuración del Entorno:** Habilitación de GitHub Pages desde la pestaña de configuración del repositorio, apuntando la ruta de despliegue directamente a la rama `main` en la carpeta raíz.
-* **Pipeline de Publicación Continua:** Cualquier fusión aprobada hacia la rama principal dispara el proceso de construcción estática interno de GitHub, publicando los cambios instantáneamente en la red global.
-* **URL Pública Generada:** El sitio es accesible desde cualquier navegador, lo que permite al equipo realizar validaciones de usabilidad con usuarios finales reales.
+**URL del Landing Page Desplegado:** (pendiente)
 
-**Enlace del Repositorio:** `[https://github.com/Desarrollo-Open-Source-grupo-5/loadmatch-landing](https://github.com/Desarrollo-Open-Source-grupo-5/loadmatch-landing)`
-**URL del Landing Page Desplegado:** `[https://Desarrollo-Open-Source-grupo-5.github.io/loadmatch-landing/](https://Desarrollo-Open-Source-grupo-5.github.io/loadmatch-landing/)`
+**Evidencia del proceso de despliegue:** (pendiente)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -166,3 +276,5 @@ La exclusión de frameworks pesados en esta fase exigió una coordinación rigur
 
 * **Integración CSS Controlada:** Para evitar la sobreescritura de reglas visuales en un entorno sin preprocesadores avanzados, el equipo aplicó la metodología BEM. Los desarrolladores trabajaron en ramas locales y sometieron sus maquetas visuales a revisiones cruzadas (Pull Requests) para verificar la consistencia estética y el uso obligatorio del archivo de variables (`:root`) antes de fusionar el código.
 * **Manejo del DOM en Equipo:** Las revisiones de código en JavaScript se centraron en garantizar que la manipulación del DOM no interfiriera con componentes desarrollados por otros miembros, utilizando selectores específicos e instanciando los Event Listeners de forma modular una vez que el documento estuviera completamente cargado (`DOMContentLoaded`). La fluidez de la comunicación a través de Microsoft Teams permitió resolver las discrepancias de diseño de manera inmediata.
+
+**GitHub Collaboration Insights:** (pendiente)
